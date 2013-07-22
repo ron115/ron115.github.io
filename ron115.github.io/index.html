@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>    
+    <head>
+        <meta charset="UTF-8"> 
+        <title>My HTML/CSS/JavaScript Playground</title>
+        
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script src="_script.js"></script>
+        <link rel="stylesheet" type="text/css" href="_css.css" />
+
+        <script>
+            $(document).ready(function (){
+                loadIframes('frameParagraph1', 'include2.txt');
+                loadIframes('frameParagraph2', 'include2.txt');
+                loadIframes('frameParagraph3', 'include2.txt');
+                
+                updateContent();
+            });            
+        </script> 
+            
+    </head>
+    <body>	
+        <div class="seperator"></div>
+        <div class="title"> This is a title</div>
+        <div class="seperator"></div>
+        
+        <div id="contentNav"></div>
+
+        <!------------------------------------------------->
+        <h1>Heading 1</h1>
+        
+        <p id="frameParagraph1"></p>
+        
+        <p>
+            <cite><a href="http://www.amazon.com/Steve-Jobs-Walter-Isaacson/dp/1451648537" title="Steve Jobs">Steve Jobs</a></cite> 
+            by Walter Isaacson is truly inspirational.
+        </p>
+        
+        <p>
+            bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla 
+            bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla 
+            bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla 
+            bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla 
+            bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla 
+            bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla 
+        </p>
+        
+        <p>
+            bla bla <font style="color:black"><strong>bold</strong></font> bla bla <font style="background-color: yellow">highlight</font> bla bla bla bla bla bla bla bla bla <font style="color:black"><em>italic text</em></font> bla bla bla bla bla bla bla bla bla bla 
+            bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla 
+            bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla 
+            bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla 
+            bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla 
+        </p>
+        
+        <h2>Heading 1.1</h2>
+        <h2>Heading 1.2</h2>
+        
+        <p id="frameParagraph2"></p>
+        
+        <!------------------------------------------------->
+        <h1>Heading 2</h1>
+        <h2>Heading 2.1</h2>
+        <h2>Heading 2.2</h2>
+        
+        <p id="frameParagraph3"></p>
+
+        <!------------------------------------------------->
+        <h1>Heading 3</h1>
+        <h2>Heading 3.1</h2>
+        <h2>Heading 3.2</h2>        
+    </body>		
+</html>
