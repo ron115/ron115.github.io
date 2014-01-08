@@ -8,6 +8,7 @@ SITEURL_ROOT = 'http://assert-false.com'
 TIMEZONE = 'Australia/Sydney'
 DEFAULT_LANG = 'en'
 
+#THEME = 'themes/pelican-octopress-theme'
 THEME = 'themes/gum'
 
 #THEME = 'themes/pelican-elegant-1.3'
