@@ -4,8 +4,8 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Rongcheng Li'
 SITENAME = "Rongcheng's Blog"
-#SITEURL = 'http://assert-false.com/blog/en'
-SITEURL = 'http://localhost:8000/blog/en'
+SITEURL = 'http://assert-false.com/blog/en'
+#SITEURL = 'http://localhost:8000/blog/en'
 TIMEZONE = 'Australia/Sydney'
 DEFAULT_LANG = 'en'
 
