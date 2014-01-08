@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 #SITEURL_ROOT = 'http://localhost:8000'
-SITEURL_ROOT = 'http://assert-false'
+SITEURL_ROOT = 'http://assert-false.com'
 
 TIMEZONE = 'Australia/Sydney'
 DEFAULT_LANG = 'en'
