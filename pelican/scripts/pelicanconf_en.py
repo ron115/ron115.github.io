@@ -7,8 +7,8 @@ import sys
 sys.path.append(os.getcwd()+'/scripts')
 from pelicanconf_common import *
 
-AUTHOR = 'Rongcheng Li'
-SITENAME = "Rongcheng's Blog"
+AUTHOR = 'Ron'
+SITENAME = "Ron's Blog"
 SITEURL = SITEURL_ROOT + '/blog/en'
 DEFAULT_LANG = 'en'
 MENUITEMS = (

@@ -35,5 +35,7 @@ THEME = 'themes/gum'
 
 DEFAULT_PAGINATION = 10
 
+DISQUS_SITENAME = 'ron115'
+
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
