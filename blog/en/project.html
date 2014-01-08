@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Rongcheng Li" />
+        <meta name="copyright" content="Rongcheng Li" />
+
+<meta name="keywords" content=", hello, " />
+        <title>Project  · Rongcheng's Blog
+</title>
+        <link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="http://localhost:8000/blog/theme/css/style.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="http://localhost:8000/blog/theme/css/solarizedlight.css" media="screen">
+        <link rel="shortcut icon" href="http://localhost:8000/blog/theme/images/favicon.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="http://localhost:8000/blog/theme/images/apple-touch-icon.png" />
+        <link rel="apple-touch-icon" sizes="57x57" href="http://localhost:8000/blog/theme/images/apple-touch-icon-57x57.png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="http://localhost:8000/blog/theme/images/apple-touch-icon-72x72.png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="http://localhost:8000/blog/theme/images/apple-touch-icon-114x114.png" />
+        <link rel="apple-touch-icon" sizes="144x144" href="http://localhost:8000/blog/theme/images/apple-touch-icon-144x144.png" />
+        <link rel="icon" href="http://localhost:8000/blog/theme/images/apple-touch-icon-144x144.png" />
+        <link href="http://localhost:8000/blog/feeds\all.atom.xml" type="application/atom+xml" rel="alternate" title="Rongcheng's Blog - Full Atom Feed" />
+        <link href="http://localhost:8000/blog/feeds\English.atom.xml" type="application/atom+xml" rel="alternate" title="Rongcheng's Blog - English Category Atom Feed" />
+        <link href="http://localhost:8000/blog/feeds\hello.atom.xml" type="application/atom+xml" rel="alternate" title="Rongcheng's Blog - hello Category Atom Feed" />
+    </head>
+    <body>
+        <div id="content-sans-footer">
+        <div class="navbar navbar-static-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="http://localhost:8000/blog/"><span class=site-name>Rongcheng's Blog</span></a>
+                    <div class="nav-collapse collapse">
+                        <ul class="nav pull-right top-menu">
+                            <li ><a href="http://localhost:8000/blog">Home</a></li>
+                            <li ><a href="http://localhost:8000/blog/categories.html">Categories</a></li>
+                            <li ><a href="http://localhost:8000/blog/tags.html">Tags</a></li>
+                            <li ><a href="http://localhost:8000/blog/archives.html">Archives</a></li>
+                            <li><form class="navbar-search" action="http://localhost:8000/blog/search.html" onsubmit="return validateForm(this.elements['q'].value);"> <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input"></form></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span1"></div>
+                <div class="span10">
+<article>
+<div class="row-fluid">
+    <header class="page_header span10 offset2">
+    <h1><a href="http://localhost:8000/blog/project.html"> Project  </a></h1>
+    </header>
+</div>
+
+<div class="row-fluid">
+        <div class="span8 offset2 article-content">
+
+            <div class="section" id="console-commands">
+<h2>Console Commands</h2>
+<p>Use py33.bat or vedjango142_v-env.bat</p>
+</div>
+<div class="section" id="versions">
+<h2>Versions</h2>
+<p>It is decided to develop multiple prototype versions:</p>
+<ul class="simple">
+<li>(main) Python version (probably with some performance critical java components), and</li>
+<li>C# version, and</li>
+<li>(optional) Java version</li>
+</ul>
+<p>to compare those technology and then make the final decision for the long term platform choice.</p>
+<p>Currently, the Python version is temporarily considered as the main production codebase, other versions
+will only be developed for learning and technology comparison purpose. However, this may be changed if
+it is proven that using other technology, e.g. Java or C#, can deliver faster or better code.</p>
+<p>When the final platform choice decision is made, all the other prototype codebases will released as open source projects.</p>
+</div>
+<div class="section" id="technology-stack">
+<h2>Technology Stack</h2>
+<div class="section" id="misc">
+<h3>Misc</h3>
+<pre class="literal-block">
+[=+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+&#64;&#64;
+&#64;&#64; [#2012-10-10_23:00:08]
+
+初步决定使用以下工具栈：
+
+  commonJS  -- for 模块化，代码重用
++ dojo      -- for 界面组件
++ backbone  -- for MVC框架
++ 某一个python web server:
+       bottle
+    or cherry
+    or tornado
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+=]
+</pre>
+</div>
+<div class="section" id="libs">
+<h3>Libs</h3>
+<p><strong>NDesk.Options 0.2.1</strong></p>
+<ul>
+<li><p class="first">Description: A command line parser</p>
+<p>Recommended by: <a class="reference external" href="http://stackoverflow.com/questions/491595/best-way-to-parse-command-line-arguments-in-c">http://stackoverflow.com/questions/491595/best-way-to-parse-command-line-arguments-in-c</a></p>
+</li>
+<li><p class="first">Location: _labapp_TimeInsightvslibsndesk-optionsNDesk.Options.dll</p>
+</li>
+<li><p class="first">Download from: <a class="reference external" href="http://www.ndesk.org/Options">http://www.ndesk.org/Options</a></p>
+</li>
+<li><p class="first">Version in use: 0.2.1</p>
+</li>
+</ul>
+</div>
+<div class="section" id="cloud-platform">
+<h3>Cloud Platform</h3>
+<p>Iaas candidates:</p>
+<ul class="simple">
+<li>Amazon EC2: with HAProxy, Django, mod_wsgi, Apache, MySQL, memcached <a class="footnote-reference" href="#f1" id="id1">[1]</a></li>
+<li>Google Compute Engine <a class="reference external" href="https://cloud.google.com/pricing/compute-engine">https://cloud.google.com/pricing/compute-engine</a></li>
+</ul>
+</div>
+</div>
+<div class="section" id="configurations">
+<h2>Configurations</h2>
+<ul class="simple">
+<li>CI: Travis (recommended) or Jekins
+- Travis + selenium for web gui testing: <a class="reference external" href="http://about.travis-ci.org/docs/user/gui-and-headless-browsers/">http://about.travis-ci.org/docs/user/gui-and-headless-browsers/</a></li>
+<li>Others:</li>
+</ul>
+<pre class="literal-block">
+[=+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+&#64;&#64;
+&#64;&#64; [#2012-09-24_17:51:47]
+
+- four-digit version number: major.feature.bug.revision
+- all feature &amp; bug fixing work are on branch, then merge to trunk (trunk
+  keeps stable for release)
+- create a script to read labels from hg to generate release notes and
+  update version numbers
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+=]
+</pre>
+<p class="rubric">Footnotes</p>
+<table class="docutils footnote" frame="void" id="f1" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id1">[1]</a></td><td>from: <a class="reference external" href="http://attentionshard.wordpress.com/2011/04/26/scaling-django-to-30000-requests-per-second/">Scaling Django to 30,000 requests per second</a></td></tr>
+</tbody>
+</table>
+</div>
+
+            <aside>
+            <hr/>
+            <nav>
+            <ul class="articles_timeline">
+ 
+                <li class="previous_article">« <a href="http://localhost:8000/blog/testing.html" title="Previous: Testing">Testing</a></li>
+ 
+                <li class="next_article"><a href="http://localhost:8000/blog/product.html" title="Next: Product">Product</a> »</li>
+            </ul>
+            </nav>
+            </aside>
+        </div>
+        <section>
+        <div class="span2" style="float:right;font-size:0.9em;">
+ 
+            <h4>Published</h4>
+            <time pubdate="pubdate" datetime="2010-10-03T10:20:00">Oct 3, 2010</time>
+            <h4>Category</h4>
+            <a class="category-link" href="/categories.html#hello-ref">hello</a> 
+
+        </div>
+        </section>
+</div>
+</article>
+                </div>
+                <div class="span1"></div>
+            </div>
+        </div>
+    </div>
+<footer>
+<div id="footer">
+    <ul class="footer-content">
+        <li class="elegant-power">Powered by <a href="http://getpelican.com/" title="Pelican Home Page">Pelican</a>. Theme: <a href="http://oncrashreboot.com/pelican-elegant" title="Theme Elegant Home Page">Elegant</a> by <a href="http://oncrashreboot.com" title="Talha Mansoor Home Page">Talha Mansoor</a></li>
+    </ul>
+</div>
+</footer>            <script src="http://code.jquery.com/jquery.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+        <script>
+            function validateForm(query)
+            {
+                return (query.length > 0);
+            }
+        </script>
+
+    </body>
+</html>

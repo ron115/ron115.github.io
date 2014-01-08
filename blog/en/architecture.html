@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Rongcheng Li" />
+        <meta name="copyright" content="Rongcheng Li" />
+
+<meta name="keywords" content=", hello, " />
+        <title>Architecture  · Rongcheng's Blog
+</title>
+        <link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="http://localhost:8000/blog/theme/css/style.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="http://localhost:8000/blog/theme/css/solarizedlight.css" media="screen">
+        <link rel="shortcut icon" href="http://localhost:8000/blog/theme/images/favicon.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="http://localhost:8000/blog/theme/images/apple-touch-icon.png" />
+        <link rel="apple-touch-icon" sizes="57x57" href="http://localhost:8000/blog/theme/images/apple-touch-icon-57x57.png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="http://localhost:8000/blog/theme/images/apple-touch-icon-72x72.png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="http://localhost:8000/blog/theme/images/apple-touch-icon-114x114.png" />
+        <link rel="apple-touch-icon" sizes="144x144" href="http://localhost:8000/blog/theme/images/apple-touch-icon-144x144.png" />
+        <link rel="icon" href="http://localhost:8000/blog/theme/images/apple-touch-icon-144x144.png" />
+        <link href="http://localhost:8000/blog/feeds\all.atom.xml" type="application/atom+xml" rel="alternate" title="Rongcheng's Blog - Full Atom Feed" />
+        <link href="http://localhost:8000/blog/feeds\English.atom.xml" type="application/atom+xml" rel="alternate" title="Rongcheng's Blog - English Category Atom Feed" />
+        <link href="http://localhost:8000/blog/feeds\hello.atom.xml" type="application/atom+xml" rel="alternate" title="Rongcheng's Blog - hello Category Atom Feed" />
+    </head>
+    <body>
+        <div id="content-sans-footer">
+        <div class="navbar navbar-static-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="http://localhost:8000/blog/"><span class=site-name>Rongcheng's Blog</span></a>
+                    <div class="nav-collapse collapse">
+                        <ul class="nav pull-right top-menu">
+                            <li ><a href="http://localhost:8000/blog">Home</a></li>
+                            <li ><a href="http://localhost:8000/blog/categories.html">Categories</a></li>
+                            <li ><a href="http://localhost:8000/blog/tags.html">Tags</a></li>
+                            <li ><a href="http://localhost:8000/blog/archives.html">Archives</a></li>
+                            <li><form class="navbar-search" action="http://localhost:8000/blog/search.html" onsubmit="return validateForm(this.elements['q'].value);"> <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input"></form></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span1"></div>
+                <div class="span10">
+<article>
+<div class="row-fluid">
+    <header class="page_header span10 offset2">
+    <h1><a href="http://localhost:8000/blog/architecture.html"> Architecture  </a></h1>
+    </header>
+</div>
+
+<div class="row-fluid">
+        <div class="span8 offset2 article-content">
+
+            <div class="section" id="basic-architecture">
+<h2>Basic Architecture</h2>
+<p>This is the basic system architecture:</p>
+<pre class="literal-block">
+ui exe &lt;--------+
+  | ^           |
+  v |           |
+da proxy exe    |
+  | ^           |
+  v |           |
+bl dll &lt;--------+
+  |
+  v
+da dll
+  |
+  v
+database
+</pre>
+<ul class="simple">
+<li>&quot;da proxy exe&quot; is for broadcasting the database change to all connected client, otherwise
+ui exe accesses bl dll directly and can only get database change by manually refreshing the
+view.</li>
+<li>&quot;da proxy exe&quot; is able to deliver web ui, so it is not only a web service, but also a web app</li>
+</ul>
+</div>
+<div class="section" id="extended-architecture">
+<h2>Extended Architecture</h2>
+<pre class="literal-block">
+view (both gui &amp; console)
+view model
+
+App Proxy (a backend switcher, support both native and network backend)
+
+communication
+
+balancer
+cache
+app service
+DAL (with DB switcher)
+
+DB
+</pre>
+</div>
+<div class="section" id="extensibility-scalability">
+<h2>Extensibility &amp; Scalability</h2>
+<p>Multiple DbContext:</p>
+<ul class="simple">
+<li>One extension one DbContext</li>
+<li>Have one &quot;contain-everything&quot; DbContext for database creation</li>
+</ul>
+<p>Extending function layers:</p>
+<ul class="simple">
+<li>All components' API use the common business entities</li>
+<li>If need an extra layer, e.g. validation, Performance measurement, caching, message queue,
+etc. , just add a new layer component in the middle with the same API interface (By this
+way, the prototype can just focus on the core functions)</li>
+</ul>
+</div>
+<div class="section" id="network">
+<h2>Network</h2>
+<ul>
+<li><p class="first"><strong>Avoid Callback, but use client side service</strong></p>
+<p>If server use callback to contact client, one disadvantage is: once the callback interface changes,
+all the client must upgrade.</p>
+<p>Therefore, it may be better to have client side services to work as callback event interface. So when
+the client side service is changed, only the necessary minimal sites need to upgrade, other sites
+can still work on the old client side versions.</p>
+</li>
+<li><p class="first"><strong>Use Queue</strong></p>
+<p>Need to consider to use a message queues for critical communications.</p>
+</li>
+<li><p class="first"><strong>Peer-to-peer Design</strong></p>
+<ul class="simple">
+<li>Every client can work as a proxy</li>
+<li>Every client can replicate their proxy list to other clients</li>
+<li>Because notfication is not based on callback, every client just needs to wait for others to
+call them. So when a client update its own task, it will call all other clients one-by-one.</li>
+<li><strong>Registration</strong>: the living client register itself in the central database, if it is down, other
+clients will update that client's status in the database if they cannot reach it.</li>
+</ul>
+</li>
+</ul>
+</div>
+
+            <aside>
+            <hr/>
+            <nav>
+            <ul class="articles_timeline">
+ 
+                <li class="previous_article">« <a href="http://localhost:8000/blog/database.html" title="Previous: Database">Database</a></li>
+ 
+                <li class="next_article"><a href="http://localhost:8000/blog/this-is-some-title.html" title="Next: This is some title">This is some title</a> »</li>
+            </ul>
+            </nav>
+            </aside>
+        </div>
+        <section>
+        <div class="span2" style="float:right;font-size:0.9em;">
+ 
+            <h4>Published</h4>
+            <time pubdate="pubdate" datetime="2010-10-03T10:20:00">Oct 3, 2010</time>
+            <h4>Category</h4>
+            <a class="category-link" href="/categories.html#hello-ref">hello</a> 
+
+        </div>
+        </section>
+</div>
+</article>
+                </div>
+                <div class="span1"></div>
+            </div>
+        </div>
+    </div>
+<footer>
+<div id="footer">
+    <ul class="footer-content">
+        <li class="elegant-power">Powered by <a href="http://getpelican.com/" title="Pelican Home Page">Pelican</a>. Theme: <a href="http://oncrashreboot.com/pelican-elegant" title="Theme Elegant Home Page">Elegant</a> by <a href="http://oncrashreboot.com" title="Talha Mansoor Home Page">Talha Mansoor</a></li>
+    </ul>
+</div>
+</footer>            <script src="http://code.jquery.com/jquery.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+        <script>
+            function validateForm(query)
+            {
+                return (query.length > 0);
+            }
+        </script>
+
+    </body>
+</html>
