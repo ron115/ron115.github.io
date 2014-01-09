@@ -3,6 +3,14 @@ Architecture
 ============
 
 :date: 2010-10-03 10:20
+:summary: Architecture smmary Architecture smmary Architecture smmary
+    Architecture smmary Architecture smmary Architecture smmary 
+    Architecture smmary Architecture smmary Architecture smmary 
+    Architecture smmary Architecture smmary Architecture smmary 
+    Architecture smmary Architecture smmary Architecture smmary Architecture smmary 
+    Architecture smmary Architecture smmary Architecture smmary Architecture smmary 
+
+.. contents::
 
 Basic Architecture
 ==================

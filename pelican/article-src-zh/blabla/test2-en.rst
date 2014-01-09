@@ -4,6 +4,7 @@
 :date: 2011-10-03 10:22
 :tags: bbb, aaa
 :slug: this-is-some-title
+:lang: en
 :summary: Short version for index and feeds
 
 测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试

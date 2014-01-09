@@ -3,6 +3,11 @@ Architecture
 ============
 
 :date: 2010-10-03 10:20
+:summary: Architecture Architecture Architecture Architecture Architecture Architecture Architecture Architecture 
+    Architecture Architecture Architecture Architecture Architecture Architecture Architecture Architecture 
+    Architecture Architecture Architecture Architecture Architecture 
+
+.. contents::
 
 Basic Architecture
 ==================

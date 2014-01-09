@@ -1,9 +1,10 @@
-My super title
-##############
+1234
+####
 
 :date: 2013-12-03 10:21
 :tags: thats, awesome
-:slug: my-super-title
+:slug: 1234
+:lang: zh_cn
 :summary: bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
  bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
  bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
@@ -12,11 +13,9 @@ My super title
  bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
  bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
 
-Test
+Test Image:
 
 .. image:: https://lh4.googleusercontent.com/N7d0zE6evji5PoadmfJhqZ0yLpH_2OWvfLjABawBJMFehLhhaQdrRS0DOSKsX0mKqX8sPp8j5POzLef2GX7Oj83VOYD9xaXYli98xrBzG760HYRaBsgJPesgGQ
-    :height: 71
-    :width: 71
     :alt: some image text
 
 
