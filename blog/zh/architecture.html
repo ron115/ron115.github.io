@@ -4,8 +4,8 @@
 
         <title>Architecture</title>
         <meta charset="utf-8" />
-        <link href="http://assert-false.com/blog/zh/feeds\all.atom.xml" type="application/atom+xml" rel="alternate" title="李某的博客 Full Atom Feed" />
-        <link href="http://assert-false.com/blog/zh/feeds\hello-world.atom.xml" type="application/atom+xml" rel="alternate" title="李某的博客 Categories Atom Feed" />
+        <link href="http://assert-false.com/blog/zh/feeds\all.atom.xml" type="application/atom+xml" rel="alternate" title="Pelican博客测试 Full Atom Feed" />
+        <link href="http://assert-false.com/blog/zh/feeds\fancy.atom.xml" type="application/atom+xml" rel="alternate" title="Pelican博客测试 Categories Atom Feed" />
 
 
         <!-- Mobile viewport optimized: j.mp/bplateviewport -->
@@ -32,7 +32,7 @@
         <div class="row">
 
           <header id="banner" class="body">
-                  <h1><a href="http://assert-false.com/blog/zh">李某的博客 <strong></strong></a></h1>
+                  <h1><a href="http://assert-false.com/blog/zh">Pelican博客测试 <strong></strong></a></h1>
           </header><!-- /#banner -->
 
             <div id="navigation" class="navbar row">
@@ -42,6 +42,7 @@
                 <li><a href="http://assert-false.com">Home</a></li>
 
                 <li><a href="http://assert-false.com/blog/en">English Blog（英文博客）</a></li>
+                <li><a href="http://assert-false.com/blog/zh/pages/forum.html">Forum</a></li>
                 
                 <li><a href="http://assert-false.com/blog/zh/archives.html">Archives</a></li>
 
@@ -69,8 +70,17 @@
               </address>
             </footer><!-- /.post-info -->
             <div class="entry-content">
-              <div class="section" id="basic-architecture">
-<h2>Basic Architecture</h2>
+              <div class="contents topic" id="contents">
+<p class="topic-title first">Contents</p>
+<ul class="simple">
+<li><a class="reference internal" href="#basic-architecture" id="id1">Basic Architecture</a></li>
+<li><a class="reference internal" href="#extended-architecture" id="id2">Extended Architecture</a></li>
+<li><a class="reference internal" href="#extensibility-scalability" id="id3">Extensibility &amp; Scalability</a></li>
+<li><a class="reference internal" href="#network" id="id4">Network</a></li>
+</ul>
+</div>
+<div class="section" id="basic-architecture">
+<h2><a class="toc-backref" href="#id1">Basic Architecture</a></h2>
 <p>This is the basic system architecture:</p>
 <pre class="literal-block">
 ui exe &lt;--------+
@@ -95,7 +105,7 @@ view.</li>
 </ul>
 </div>
 <div class="section" id="extended-architecture">
-<h2>Extended Architecture</h2>
+<h2><a class="toc-backref" href="#id2">Extended Architecture</a></h2>
 <pre class="literal-block">
 view (both gui &amp; console)
 view model
@@ -113,7 +123,7 @@ DB
 </pre>
 </div>
 <div class="section" id="extensibility-scalability">
-<h2>Extensibility &amp; Scalability</h2>
+<h2><a class="toc-backref" href="#id3">Extensibility &amp; Scalability</a></h2>
 <p>Multiple DbContext:</p>
 <ul class="simple">
 <li>One extension one DbContext</li>
@@ -128,7 +138,7 @@ way, the prototype can just focus on the core functions)</li>
 </ul>
 </div>
 <div class="section" id="network">
-<h2>Network</h2>
+<h2><a class="toc-backref" href="#id4">Network</a></h2>
 <ul>
 <li><p class="first"><strong>Avoid Callback, but use client side service</strong></p>
 <p>If server use callback to contact client, one disadvantage is: once the callback interface changes,
@@ -177,22 +187,23 @@ clients will update that client's status in the database if they cannot reach it
 
  <ul>
       <li><a href="http://assert-false.com/blog/en">English Blog（英文博客）</a></li>
+      <li><a href="http://assert-false.com/blog/zh/pages/forum.html">Forum</a></li>
   </ul>
 -->
 
 <h4>Categories</h4>
 <ul>
-		<li><a href="http://assert-false.com/blog/zh/category/chinese.html">Chinese</a></li>
-		<li><a href="http://assert-false.com/blog/zh/category/english.html">English</a></li>
-		<li><a href="http://assert-false.com/blog/zh/category/hello-world.html">hello world</a></li>
+		<li><a href="http://assert-false.com/blog/zh/category/blabla.html">blabla</a></li>
+		<li><a href="http://assert-false.com/blog/zh/category/fancy.html">fancy</a></li>
+		<li><a href="http://assert-false.com/blog/zh/category/moon.html">moon</a></li>
 </ul>
 
 <h4>Tags</h4>
 	<ul>
-	    <li class="tag-4"><a href="http://assert-false.com/blog/zh/tag/awesome.html">awesome</a></li>
-	    <li class="tag-4"><a href="http://assert-false.com/blog/zh/tag/bbb.html">bbb</a></li>
 	    <li class="tag-4"><a href="http://assert-false.com/blog/zh/tag/aaa.html">aaa</a></li>
-	    <li class="tag-4"><a href="http://assert-false.com/blog/zh/tag/thats.html">thats</a></li>
+	    <li class="tag-1"><a href="http://assert-false.com/blog/zh/tag/thats.html">thats</a></li>
+	    <li class="tag-4"><a href="http://assert-false.com/blog/zh/tag/bbb.html">bbb</a></li>
+	    <li class="tag-1"><a href="http://assert-false.com/blog/zh/tag/awesome.html">awesome</a></li>
 </ul>
 
 

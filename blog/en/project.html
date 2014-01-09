@@ -4,8 +4,8 @@
 
         <title>Project</title>
         <meta charset="utf-8" />
-        <link href="http://assert-false.com/blog/en/feeds\all.atom.xml" type="application/atom+xml" rel="alternate" title="Ron's Blog Full Atom Feed" />
-        <link href="http://assert-false.com/blog/en/feeds\hello.atom.xml" type="application/atom+xml" rel="alternate" title="Ron's Blog Categories Atom Feed" />
+        <link href="http://assert-false.com/blog/en/feeds\all.atom.xml" type="application/atom+xml" rel="alternate" title="My Pelican Test Blog Full Atom Feed" />
+        <link href="http://assert-false.com/blog/en/feeds\hello.atom.xml" type="application/atom+xml" rel="alternate" title="My Pelican Test Blog Categories Atom Feed" />
 
 
         <!-- Mobile viewport optimized: j.mp/bplateviewport -->
@@ -32,7 +32,7 @@
         <div class="row">
 
           <header id="banner" class="body">
-                  <h1><a href="http://assert-false.com/blog/en">Ron's Blog <strong></strong></a></h1>
+                  <h1><a href="http://assert-false.com/blog/en">My Pelican Test Blog <strong></strong></a></h1>
           </header><!-- /#banner -->
 
             <div id="navigation" class="navbar row">
@@ -42,6 +42,7 @@
                 <li><a href="http://assert-false.com">Home</a></li>
 
                 <li><a href="http://assert-false.com/blog/zh">Chinese Blog（中文博客）</a></li>
+                <li><a href="http://assert-false.com/blog/en/pages/forum.html">Forum</a></li>
                 
                 <li><a href="http://assert-false.com/blog/en/archives.html">Archives</a></li>
 
@@ -69,12 +70,26 @@
               </address>
             </footer><!-- /.post-info -->
             <div class="entry-content">
-              <div class="section" id="console-commands">
-<h2>Console Commands</h2>
+              <div class="contents topic" id="contents">
+<p class="topic-title first">Contents</p>
+<ul class="simple">
+<li><a class="reference internal" href="#console-commands" id="id2">Console Commands</a></li>
+<li><a class="reference internal" href="#versions" id="id3">Versions</a></li>
+<li><a class="reference internal" href="#technology-stack" id="id4">Technology Stack</a><ul>
+<li><a class="reference internal" href="#misc" id="id5">Misc</a></li>
+<li><a class="reference internal" href="#libs" id="id6">Libs</a></li>
+<li><a class="reference internal" href="#cloud-platform" id="id7">Cloud Platform</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#configurations" id="id8">Configurations</a></li>
+</ul>
+</div>
+<div class="section" id="console-commands">
+<h2><a class="toc-backref" href="#id2">Console Commands</a></h2>
 <p>Use py33.bat or vedjango142_v-env.bat</p>
 </div>
 <div class="section" id="versions">
-<h2>Versions</h2>
+<h2><a class="toc-backref" href="#id3">Versions</a></h2>
 <p>It is decided to develop multiple prototype versions:</p>
 <ul class="simple">
 <li>(main) Python version (probably with some performance critical java components), and</li>
@@ -88,9 +103,9 @@ it is proven that using other technology, e.g. Java or C#, can deliver faster or
 <p>When the final platform choice decision is made, all the other prototype codebases will released as open source projects.</p>
 </div>
 <div class="section" id="technology-stack">
-<h2>Technology Stack</h2>
+<h2><a class="toc-backref" href="#id4">Technology Stack</a></h2>
 <div class="section" id="misc">
-<h3>Misc</h3>
+<h3><a class="toc-backref" href="#id5">Misc</a></h3>
 <pre class="literal-block">
 [=+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
 &#64;&#64;
@@ -110,7 +125,7 @@ it is proven that using other technology, e.g. Java or C#, can deliver faster or
 </pre>
 </div>
 <div class="section" id="libs">
-<h3>Libs</h3>
+<h3><a class="toc-backref" href="#id6">Libs</a></h3>
 <p><strong>NDesk.Options 0.2.1</strong></p>
 <ul>
 <li><p class="first">Description: A command line parser</p>
@@ -125,7 +140,7 @@ it is proven that using other technology, e.g. Java or C#, can deliver faster or
 </ul>
 </div>
 <div class="section" id="cloud-platform">
-<h3>Cloud Platform</h3>
+<h3><a class="toc-backref" href="#id7">Cloud Platform</a></h3>
 <p>Iaas candidates:</p>
 <ul class="simple">
 <li>Amazon EC2: with HAProxy, Django, mod_wsgi, Apache, MySQL, memcached <a class="footnote-reference" href="#f1" id="id1">[1]</a></li>
@@ -134,7 +149,7 @@ it is proven that using other technology, e.g. Java or C#, can deliver faster or
 </div>
 </div>
 <div class="section" id="configurations">
-<h2>Configurations</h2>
+<h2><a class="toc-backref" href="#id8">Configurations</a></h2>
 <ul class="simple">
 <li>CI: Travis (recommended) or Jekins
 - Travis + selenium for web gui testing: <a class="reference external" href="http://about.travis-ci.org/docs/user/gui-and-headless-browsers/">http://about.travis-ci.org/docs/user/gui-and-headless-browsers/</a></li>
@@ -186,6 +201,7 @@ it is proven that using other technology, e.g. Java or C#, can deliver faster or
 
  <ul>
       <li><a href="http://assert-false.com/blog/zh">Chinese Blog（中文博客）</a></li>
+      <li><a href="http://assert-false.com/blog/en/pages/forum.html">Forum</a></li>
   </ul>
 -->
 
@@ -199,8 +215,8 @@ it is proven that using other technology, e.g. Java or C#, can deliver faster or
 <h4>Tags</h4>
 	<ul>
 	    <li class="tag-4"><a href="http://assert-false.com/blog/en/tag/aaa.html">aaa</a></li>
-	    <li class="tag-1"><a href="http://assert-false.com/blog/en/tag/thats.html">thats</a></li>
 	    <li class="tag-4"><a href="http://assert-false.com/blog/en/tag/bbb.html">bbb</a></li>
+	    <li class="tag-1"><a href="http://assert-false.com/blog/en/tag/thats.html">thats</a></li>
 	    <li class="tag-1"><a href="http://assert-false.com/blog/en/tag/awesome.html">awesome</a></li>
 </ul>
 

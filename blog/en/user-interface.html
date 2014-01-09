@@ -4,8 +4,8 @@
 
         <title>User Interface</title>
         <meta charset="utf-8" />
-        <link href="http://assert-false.com/blog/en/feeds\all.atom.xml" type="application/atom+xml" rel="alternate" title="Ron's Blog Full Atom Feed" />
-        <link href="http://assert-false.com/blog/en/feeds\hello.atom.xml" type="application/atom+xml" rel="alternate" title="Ron's Blog Categories Atom Feed" />
+        <link href="http://assert-false.com/blog/en/feeds\all.atom.xml" type="application/atom+xml" rel="alternate" title="My Pelican Test Blog Full Atom Feed" />
+        <link href="http://assert-false.com/blog/en/feeds\hello.atom.xml" type="application/atom+xml" rel="alternate" title="My Pelican Test Blog Categories Atom Feed" />
 
 
         <!-- Mobile viewport optimized: j.mp/bplateviewport -->
@@ -32,7 +32,7 @@
         <div class="row">
 
           <header id="banner" class="body">
-                  <h1><a href="http://assert-false.com/blog/en">Ron's Blog <strong></strong></a></h1>
+                  <h1><a href="http://assert-false.com/blog/en">My Pelican Test Blog <strong></strong></a></h1>
           </header><!-- /#banner -->
 
             <div id="navigation" class="navbar row">
@@ -42,6 +42,7 @@
                 <li><a href="http://assert-false.com">Home</a></li>
 
                 <li><a href="http://assert-false.com/blog/zh">Chinese Blog（中文博客）</a></li>
+                <li><a href="http://assert-false.com/blog/en/pages/forum.html">Forum</a></li>
                 
                 <li><a href="http://assert-false.com/blog/en/archives.html">Archives</a></li>
 
@@ -61,16 +62,42 @@
            
             </header>
             <footer class="post-info">
-              <abbr class="published" title="2010-10-03T10:20:00">
-                Sun 03 October 2010
+              <abbr class="published" title="2013-12-23T10:20:00">
+                Mon 23 December 2013
               </abbr>
               <address class="vcard author">
                 By <a class="url fn" href="http://assert-false.com/blog/en/author/ron.html">Ron</a>
               </address>
             </footer><!-- /.post-info -->
             <div class="entry-content">
-              <div class="section" id="misc">
-<h2>Misc</h2>
+              <div class="contents topic" id="contents">
+<p class="topic-title first">Contents</p>
+<ul class="simple">
+<li><a class="reference internal" href="#misc" id="id1">Misc</a></li>
+<li><a class="reference internal" href="#views" id="id2">Views</a><ul>
+<li><a class="reference internal" href="#outline" id="id3">Outline</a></li>
+<li><a class="reference internal" href="#backlog" id="id4">Backlog</a></li>
+<li><a class="reference internal" href="#history" id="id5">History</a></li>
+<li><a class="reference internal" href="#statistic" id="id6">Statistic</a></li>
+<li><a class="reference internal" href="#swot" id="id7">SWOT</a></li>
+<li><a class="reference internal" href="#detail" id="id8">Detail</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#menu-bar" id="id9">Menu Bar</a><ul>
+<li><a class="reference internal" href="#file" id="id10">File</a></li>
+<li><a class="reference internal" href="#search" id="id11">Search</a></li>
+<li><a class="reference internal" href="#view" id="id12">View</a></li>
+<li><a class="reference internal" href="#tools" id="id13">Tools</a></li>
+<li><a class="reference internal" href="#options" id="id14">Options</a></li>
+<li><a class="reference internal" href="#help" id="id15">Help</a></li>
+<li><a class="reference internal" href="#feedback" id="id16">Feedback</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#tool-bar" id="id17">Tool Bar</a></li>
+</ul>
+</div>
+<div class="section" id="misc">
+<h2><a class="toc-backref" href="#id1">Misc</a></h2>
 <ul>
 <li><p class="first">Need to provide a &quot;download&quot; button to download the user data to local machine</p>
 <p>[TBD] Download all or just a part of user data?</p>
@@ -90,9 +117,9 @@ http://docs.python.org/3/library/webbrowser.html
 </pre>
 </div>
 <div class="section" id="views">
-<h2>Views</h2>
+<h2><a class="toc-backref" href="#id2">Views</a></h2>
 <div class="section" id="outline">
-<h3>Outline</h3>
+<h3><a class="toc-backref" href="#id3">Outline</a></h3>
 <ul class="simple">
 <li>sidebar</li>
 <li>tree view, with a column to show a progress bar (display remaining task number, progress percentage)<ul>
@@ -104,7 +131,7 @@ http://docs.python.org/3/library/webbrowser.html
 </ul>
 </div>
 <div class="section" id="backlog">
-<h3>Backlog</h3>
+<h3><a class="toc-backref" href="#id4">Backlog</a></h3>
 <ul class="simple">
 <li>table mode<ul>
 <li>Insert defined row(s) above/below (change the defined row number in the setting)</li>
@@ -127,7 +154,7 @@ but the progress bar should display on the outline view</li>
 </ul>
 </div>
 <div class="section" id="history">
-<span id="activity-view"></span><h3>History</h3>
+<span id="activity-view"></span><h3><a class="toc-backref" href="#id5">History</a></h3>
 <p>(This view is like an &quot;Audits&quot; table in automation control system, and is also used as timesheet or my
 direction control purpose.)</p>
 <ul class="simple">
@@ -173,7 +200,7 @@ see &quot;pg'-w. QTableWidget. QItemDelegate. QComboBox. _.py&quot;
 </ul>
 </div>
 <div class="section" id="statistic">
-<h3>Statistic</h3>
+<h3><a class="toc-backref" href="#id6">Statistic</a></h3>
 <ul class="simple">
 <li>根据百分比的 burn down 好像更合理一点（百分比的计算单位还是应该根据time estimate来进行）</li>
 <li>除了 burn down chart 以外，还需要正负柱状图，正方向代表插入的任务量，负方向代表消除的任务量</li>
@@ -181,7 +208,7 @@ see &quot;pg'-w. QTableWidget. QItemDelegate. QComboBox. _.py&quot;
 </ul>
 </div>
 <div class="section" id="swot">
-<h3>SWOT</h3>
+<h3><a class="toc-backref" href="#id7">SWOT</a></h3>
 <p>(need to be moved to somewhere)</p>
 <ul class="simple">
 <li>strength</li>
@@ -191,7 +218,7 @@ see &quot;pg'-w. QTableWidget. QItemDelegate. QComboBox. _.py&quot;
 </ul>
 </div>
 <div class="section" id="detail">
-<h3>Detail</h3>
+<h3><a class="toc-backref" href="#id8">Detail</a></h3>
 <p>Task Detail View</p>
 <ul>
 <li><p class="first">Used for adding task comments</p>
@@ -210,9 +237,9 @@ details
 </div>
 </div>
 <div class="section" id="menu-bar">
-<h2>Menu Bar</h2>
+<h2><a class="toc-backref" href="#id9">Menu Bar</a></h2>
 <div class="section" id="file">
-<h3>File</h3>
+<h3><a class="toc-backref" href="#id10">File</a></h3>
 <pre class="literal-block">
 [=+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
 &#64;&#64;
@@ -239,7 +266,7 @@ export to pdf
 </pre>
 </div>
 <div class="section" id="search">
-<h3>Search</h3>
+<h3><a class="toc-backref" href="#id11">Search</a></h3>
 <pre class="literal-block">
 [=+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
 &#64;&#64;
@@ -252,7 +279,7 @@ search in all opened files
 </pre>
 </div>
 <div class="section" id="view">
-<h3>View</h3>
+<h3><a class="toc-backref" href="#id12">View</a></h3>
 <pre class="literal-block">
 [=+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
 &#64;&#64;
@@ -268,13 +295,13 @@ board mode
 </pre>
 </div>
 <div class="section" id="tools">
-<h3>Tools</h3>
+<h3><a class="toc-backref" href="#id13">Tools</a></h3>
 </div>
 <div class="section" id="options">
-<h3>Options</h3>
+<h3><a class="toc-backref" href="#id14">Options</a></h3>
 </div>
 <div class="section" id="help">
-<h3>Help</h3>
+<h3><a class="toc-backref" href="#id15">Help</a></h3>
 <pre class="literal-block">
 [=+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
 &#64;&#64;
@@ -313,7 +340,7 @@ about (a dialog with QCommandLinkButton)
 </pre>
 </div>
 <div class="section" id="feedback">
-<h3>Feedback</h3>
+<h3><a class="toc-backref" href="#id16">Feedback</a></h3>
 <pre class="literal-block">
 [=+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
 &#64;&#64;
@@ -340,7 +367,7 @@ other comments
 </div>
 </div>
 <div class="section" id="tool-bar">
-<h2>Tool Bar</h2>
+<h2><a class="toc-backref" href="#id17">Tool Bar</a></h2>
 <pre class="literal-block">
 [=+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
 &#64;&#64;
@@ -376,6 +403,7 @@ search
 
  <ul>
       <li><a href="http://assert-false.com/blog/zh">Chinese Blog（中文博客）</a></li>
+      <li><a href="http://assert-false.com/blog/en/pages/forum.html">Forum</a></li>
   </ul>
 -->
 
@@ -389,8 +417,8 @@ search
 <h4>Tags</h4>
 	<ul>
 	    <li class="tag-4"><a href="http://assert-false.com/blog/en/tag/aaa.html">aaa</a></li>
-	    <li class="tag-1"><a href="http://assert-false.com/blog/en/tag/thats.html">thats</a></li>
 	    <li class="tag-4"><a href="http://assert-false.com/blog/en/tag/bbb.html">bbb</a></li>
+	    <li class="tag-1"><a href="http://assert-false.com/blog/en/tag/thats.html">thats</a></li>
 	    <li class="tag-1"><a href="http://assert-false.com/blog/en/tag/awesome.html">awesome</a></li>
 </ul>
 
