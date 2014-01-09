@@ -27,7 +27,14 @@
 &lt;/div&gt;
 &lt;div class="section" id="misc"&gt;
 &lt;h2&gt;&lt;a class="toc-backref" href="#id1"&gt;Misc&lt;/a&gt;&lt;/h2&gt;
-&lt;ul&gt;
+&lt;p&gt;Test embed html:&lt;/p&gt;
+&lt;h1&gt;hello&lt;/h1&gt;
+&lt;h2&gt;hello&lt;/h2&gt;
+
+&lt;i class="icon-note"&gt;&lt;/i&gt;
+&lt;i class="icon-heart"&gt;&lt;/i&gt;
+&lt;i class="icon-flag"&gt;&lt;/i&gt;
+&lt;i class="icon-github"&gt;&lt;/i&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p class="first"&gt;Need to provide a &amp;quot;download&amp;quot; button to download the user data to local machine&lt;/p&gt;
 &lt;p&gt;[TBD] Download all or just a part of user data?&lt;/p&gt;
 &lt;/li&gt;
