@@ -12,6 +12,19 @@ User Interface
 Misc
 ====
 
+Test embed html:
+
+.. raw:: html
+
+    <h1>hello</h1>
+    <h2>hello</h2>
+
+    <i class="icon-note"></i>
+    <i class="icon-heart"></i>
+    <i class="icon-flag"></i>
+    <i class="icon-github"></i>
+    
+
 * Need to provide a "download" button to download the user data to local machine 
 
   [TBD] Download all or just a part of user data?
