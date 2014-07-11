@@ -9,9 +9,9 @@ from pelicanconf_common import *
 
 AUTHOR = 'Ron'
 SITENAME = "My Pelican Test Blog"
-SITEURL = SITEURL_ROOT + '/blog/en'
+SITEURL = SITEURL_ROOT + '/article/en'
 DEFAULT_LANG = 'en'
 MENUITEMS = (
-            ('Chinese Blog（中文博客）', SITEURL_ROOT + '/blog/zh'),
+            ('Chinese Blog（中文博客）', SITEURL_ROOT + '/article/zh'),
             )
 DISPLAY_PAGES_ON_MENU = True
