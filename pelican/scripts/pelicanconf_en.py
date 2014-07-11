@@ -8,10 +8,10 @@ sys.path.append(os.getcwd()+'/scripts')
 from pelicanconf_common import *
 
 AUTHOR = 'Ron'
-SITENAME = "My Pelican Test Blog"
+SITENAME = "My Site"
 SITEURL = SITEURL_ROOT + '/article/en'
 DEFAULT_LANG = 'en'
 MENUITEMS = (
-            ('Chinese Blog（中文博客）', SITEURL_ROOT + '/article/zh'),
+            ('Chinese (中文)', SITEURL_ROOT + '/article/zh'),
             )
 DISPLAY_PAGES_ON_MENU = True
