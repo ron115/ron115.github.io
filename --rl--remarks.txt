@@ -22,9 +22,6 @@ pelican/update.bat
 pelican/scripts/pelicanconf_en.py
 pelican/scripts/pelicanconf_zh.py
 
-Probably also include:
-    /article/index.html
-
 -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.=]
 
 .| Pelican gum theme changes
@@ -49,8 +46,13 @@ Did the similar change in templates/tags.html
 @@ 
 @@ [#2014-07-16_15:06:49]
 
-- Don't use "_" as file prefix, it won't be accessible on github pages.
-- The default html file for a certain path is "index.html"
+File access:
+    - Don't use "_" as file prefix, it won't be accessible on github pages.
+    - The default html file for a certain path is "index.html"
+
+Path:
+    - can use relative path when refer to css or js files via "some/path"
+    - use "/some/path" to refer to "http://<domain>/some/path"
 
 -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.=]
 
