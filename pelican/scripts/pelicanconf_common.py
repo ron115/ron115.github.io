@@ -2,9 +2,25 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-SITEURL_EN = '/articles-en'
-SITEURL_ZH = '/articles-zh'
+# RL defined variables
+#===========================================================================
 
+# NOTE: 
+# SITEURL_ROOT must set to an absolute domain URL, otherwise the pelican's
+# varialbe "SITEURL" will be invalid for DISQUS with error message like: 
+#
+#   We were unable to load Disqus. If you are a moderator please see our
+#   troubleshooting guide.
+# 
+# If not use DISQUS, it's OK to just set: SITEURL_ROOT = ''
+
+#SITEURL_ROOT = 'http://localhost:8000'         # for debug
+SITEURL_ROOT = 'http://assert-false.com'        # for publish
+
+SITEURL_EN = SITEURL_ROOT + '/articles-en'
+SITEURL_ZH = SITEURL_ROOT + '/articles-zh'
+
+#===========================================================================
 
 TIMEZONE = 'Australia/Sydney'
 DEFAULT_LANG = 'en'

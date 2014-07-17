@@ -4,175 +4,175 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>/articles-zh/index.html</loc>
-<lastmod>2014-07-17T14:15:00-00:00</lastmod>
+<loc>http://assert-false.com/articles-zh/index.html</loc>
+<lastmod>2014-07-17T16:36:01-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/articles-zh/archives.html</loc>
-<lastmod>2014-07-17T14:15:00-00:00</lastmod>
+<loc>http://assert-false.com/articles-zh/archives.html</loc>
+<lastmod>2014-07-17T16:36:01-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/articles-zh/tags.html</loc>
-<lastmod>2014-07-17T14:15:00-00:00</lastmod>
+<loc>http://assert-false.com/articles-zh/tags.html</loc>
+<lastmod>2014-07-17T16:36:01-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/articles-zh/categories.html</loc>
-<lastmod>2014-07-17T14:15:00-00:00</lastmod>
+<loc>http://assert-false.com/articles-zh/categories.html</loc>
+<lastmod>2014-07-17T16:36:01-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/articles-zh/pages/forum.html</loc>
-<lastmod>2014-07-17T14:15:00-00:00</lastmod>
+<loc>http://assert-false.com/articles-zh/pages/forum.html</loc>
+<lastmod>2014-07-17T16:36:01-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/articles-zh/user-interface.html</loc>
+<loc>http://assert-false.com/articles-zh/user-interface.html</loc>
 <lastmod>2013-12-23T10:20:00-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/articles-zh/1234.html</loc>
+<loc>http://assert-false.com/articles-zh/1234.html</loc>
 <lastmod>2013-12-03T10:21:00-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/articles-zh/my-super-title.html</loc>
+<loc>http://assert-false.com/articles-zh/my-super-title.html</loc>
 <lastmod>2013-12-03T10:21:00-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/articles-zh/this-is-some-title.html</loc>
+<loc>http://assert-false.com/articles-zh/this-is-some-title.html</loc>
 <lastmod>2011-10-03T10:20:00-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/articles-zh/architecture.html</loc>
+<loc>http://assert-false.com/articles-zh/architecture.html</loc>
 <lastmod>2010-10-03T10:20:00-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/articles-zh/database.html</loc>
+<loc>http://assert-false.com/articles-zh/database.html</loc>
 <lastmod>2010-10-03T10:20:00-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/articles-zh/implementation-notes.html</loc>
+<loc>http://assert-false.com/articles-zh/implementation-notes.html</loc>
 <lastmod>2010-10-03T10:20:00-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/articles-zh/product.html</loc>
+<loc>http://assert-false.com/articles-zh/product.html</loc>
 <lastmod>2010-10-03T10:20:00-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/articles-zh/project.html</loc>
+<loc>http://assert-false.com/articles-zh/project.html</loc>
 <lastmod>2010-10-03T10:20:00-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/articles-zh/testing.html</loc>
+<loc>http://assert-false.com/articles-zh/testing.html</loc>
 <lastmod>2010-10-03T10:20:00-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/articles-zh/category/blabla.html</loc>
+<loc>http://assert-false.com/articles-zh/category/blabla.html</loc>
 <lastmod>2013-12-03T10:21:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/articles-zh/category/fancy.html</loc>
+<loc>http://assert-false.com/articles-zh/category/fancy.html</loc>
 <lastmod>2013-12-23T10:20:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/articles-zh/category/moon.html</loc>
+<loc>http://assert-false.com/articles-zh/category/moon.html</loc>
 <lastmod>2013-12-03T10:21:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/articles-zh/tag/awesome.html</loc>
+<loc>http://assert-false.com/articles-zh/tag/awesome.html</loc>
 <lastmod>2013-12-03T10:21:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/articles-zh/tag/aaa.html</loc>
+<loc>http://assert-false.com/articles-zh/tag/aaa.html</loc>
 <lastmod>2011-10-03T10:20:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/articles-zh/tag/bbb.html</loc>
+<loc>http://assert-false.com/articles-zh/tag/bbb.html</loc>
 <lastmod>2011-10-03T10:20:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/articles-zh/tag/thats.html</loc>
+<loc>http://assert-false.com/articles-zh/tag/thats.html</loc>
 <lastmod>2013-12-03T10:21:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/articles-zh/author/li-mou.html</loc>
+<loc>http://assert-false.com/articles-zh/author/li-mou.html</loc>
 <lastmod>2013-12-23T10:20:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/articles-zh/1234-en.html</loc>
+<loc>http://assert-false.com/articles-zh/1234-en.html</loc>
 <lastmod>2013-12-03T10:21:00-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/articles-zh/this-is-some-title-en.html</loc>
+<loc>http://assert-false.com/articles-zh/this-is-some-title-en.html</loc>
 <lastmod>2011-10-03T10:22:00-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>

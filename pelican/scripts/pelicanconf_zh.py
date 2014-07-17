@@ -7,9 +7,7 @@ import sys
 sys.path.append(os.getcwd()+'/scripts')
 from pelicanconf_common import *
 
-#THEME = 'themes/pelican-octopress-theme'
 THEME = 'themes/pelican-elegant-1.3'
-#THEME = 'themes/gum'
 
 # configurations for pelican elegant theme
 # see: http://oncrashreboot.com/elegant-best-pelican-theme-features#configuration-variables
@@ -43,7 +41,7 @@ AUTHOR_SAVE_AS = ''
 
 # =========================================================================================
 AUTHOR = '李某'
-SITENAME = "Pelican测试"
+SITENAME = "Pelican Test"
 #SITEURL = SITEURL_ROOT + '/articles-zh'
 SITEURL = SITEURL_ZH
 DEFAULT_LANG = 'zh_cn'
