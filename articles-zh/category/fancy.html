@@ -1,295 +1,131 @@
 <!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
-<head>
-  <meta charset="utf-8">
-  <title>Pelican测试</title>
-  <meta name="author" content="李某">
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="李某" />
+        <meta name="copyright" content="李某" />
 
+        <title>Pelican测试
+</title>
+        <link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="http://localhost:8000/articles-zh/theme/css/style.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="http://localhost:8000/articles-zh/theme/css/solarizedlight.css" media="screen">
+        <link rel="shortcut icon" href="http://localhost:8000/articles-zh/theme/images/favicon.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="http://localhost:8000/articles-zh/theme/images/apple-touch-icon.png" />
+        <link rel="apple-touch-icon" sizes="57x57" href="http://localhost:8000/articles-zh/theme/images/apple-touch-icon-57x57.png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="http://localhost:8000/articles-zh/theme/images/apple-touch-icon-72x72.png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="http://localhost:8000/articles-zh/theme/images/apple-touch-icon-114x114.png" />
+        <link rel="apple-touch-icon" sizes="144x144" href="http://localhost:8000/articles-zh/theme/images/apple-touch-icon-144x144.png" />
+        <link rel="icon" href="http://localhost:8000/articles-zh/theme/images/apple-touch-icon-144x144.png" />
+        <link href="http://localhost:8000/articles-zh/feeds\all.atom.xml" type="application/atom+xml" rel="alternate" title="Pelican测试 - Full Atom Feed" />
+        <link href="http://localhost:8000/articles-zh/feeds\blabla.atom.xml" type="application/atom+xml" rel="alternate" title="Pelican测试 - blabla Category Atom Feed" />
+        <link href="http://localhost:8000/articles-zh/feeds\fancy.atom.xml" type="application/atom+xml" rel="alternate" title="Pelican测试 - fancy Category Atom Feed" />
+        <link href="http://localhost:8000/articles-zh/feeds\moon.atom.xml" type="application/atom+xml" rel="alternate" title="Pelican测试 - moon Category Atom Feed" />
+    </head>
+    <body>
+        <div id="content-sans-footer">
+        <div class="navbar navbar-static-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="http://localhost:8000/articles-zh/"><span class=site-name>Pelican测试</span></a>
+                    <div class="nav-collapse collapse">
+                        <ul class="nav pull-right top-menu">
+                            <li ><a href="http://localhost:8000/articles-zh">Home</a></li>
+                            <li ><a href="http://localhost:8000/articles-zh/pages/forum.html">Forum</a></li>
+                            <li ><a href="http://localhost:8000/articles-zh/categories.html">Categories</a></li>
+                            <li ><a href="http://localhost:8000/articles-zh/tags.html">Tags</a></li>
+                            <li ><a href="http://localhost:8000/articles-zh/archives.html">Archives</a></li>
+                            <li><form class="navbar-search" action="http://localhost:8000/articles-zh/search.html" onsubmit="return validateForm(this.elements['q'].value);"> <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input"></form></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span1"></div>
+                <div class="span10">
+<div class="row-fluid">
 
+    <div class="row-fluid">
 
-  <!-- http://t.co/dKP3o1e -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    </div>
 
-  <link href="http://localhost:8000/articles-zh/favicon.png" rel="icon">
-  <link href="http://localhost:8000/articles-zh/theme/css/main.css" media="screen, projection"
-        rel="stylesheet" type="text/css">
-  <script src="http://localhost:8000/articles-zh/theme/js/modernizr-2.0.js"></script>
-  <script src="http://localhost:8000/articles-zh/theme/js/ender.js"></script>
-  <script src="http://localhost:8000/articles-zh/theme/js/octopress.js" type="text/javascript"></script>
-
-  <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic"
-        rel="stylesheet" type="text/css">
-  <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic"
-        rel="stylesheet" type="text/css">
-</head>
-
-<body>
-  <header role="banner"><hgroup>
-  <h1><a href="http://localhost:8000/articles-zh/">Pelican测试</a></h1>
-</hgroup></header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="http://localhost:8000/articles-zh/" rel="subscribe-rss">RSS</a></li>
-</ul>
-
-<!-- TODO: add search here
-<form action="" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="q" value="site:http://localhost:8000/articles-zh" />
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
--->
-
-<ul class="main-navigation">
-    <li><a href="http://localhost:8000/articles-en">English (英文)</a></li>
-      <li><a href="http://localhost:8000/articles-zh/pages/forum.html">Forum</a></li>
-    <!-- TODO: add categories here? -->
-</ul></nav>
-  <div id="main">
-    <div id="content">
-<div class="blog-index">
-  		<article>
-<header>
-      <h1 class="entry-title">
-        <a href="http://localhost:8000/articles-zh/user-interface.html">User Interface</a>
-      </h1>
-      <p class="meta"><time datetime="2013-12-23T10:20:00" pubdate>Mon 23 December 2013</time></p>
-</header>
-
-  <div class="entry-content"><p class="first">User Interface User Interface User Interface User Interface User Interface User Interface
-User Interface User Interface User Interface User Interface User Interface User Interface User Interface
-User Interface User Interface User Interface User Interface User Interface User Interface
-User Interface User Interface User Interface User Interface</p>
-<p class="last">User Interface User Interface User Interface User Interface User Interface
-User Interface User Interface User Interface User Interface</p>
+    <div class="row-fluid">
+        <div class="span12">
+            <header>
+            <h1 id="recent-posts">Recent Posts <a id="allposts" href="http://localhost:8000/articles-zh/archives.html">all posts</a></h1>
+            </header>
+            <ul class="list-all-articles">
+                <li>
+                <a href="http://localhost:8000/articles-zh/user-interface.html">User Interface  </a> 
+                <time pubdate="pubdate" datetime="2013-12-23T10:20:00">Mon 23 December 2013</time>
+                </li>
+            </ul>
+            <ul class="list-all-articles">
+                <li>
+                <a href="http://localhost:8000/articles-zh/architecture.html">Architecture  </a> 
+                <time pubdate="pubdate" datetime="2010-10-03T10:20:00">Sun 03 October 2010</time>
+                </li>
+            </ul>
+            <ul class="list-all-articles">
+                <li>
+                <a href="http://localhost:8000/articles-zh/database.html">Database  </a> 
+                <time pubdate="pubdate" datetime="2010-10-03T10:20:00">Sun 03 October 2010</time>
+                </li>
+            </ul>
+            <ul class="list-all-articles">
+                <li>
+                <a href="http://localhost:8000/articles-zh/implementation-notes.html">Implementation Notes  </a> 
+                <time pubdate="pubdate" datetime="2010-10-03T10:20:00">Sun 03 October 2010</time>
+                </li>
+            </ul>
+            <ul class="list-all-articles">
+                <li>
+                <a href="http://localhost:8000/articles-zh/product.html">Product  </a> 
+                <time pubdate="pubdate" datetime="2010-10-03T10:20:00">Sun 03 October 2010</time>
+                </li>
+            </ul>
+            <ul class="list-all-articles">
+                <li>
+                <a href="http://localhost:8000/articles-zh/project.html">Project  </a> 
+                <time pubdate="pubdate" datetime="2010-10-03T10:20:00">Sun 03 October 2010</time>
+                </li>
+            </ul>
+            <ul class="list-all-articles">
+                <li>
+                <a href="http://localhost:8000/articles-zh/testing.html">Testing  </a> 
+                <time pubdate="pubdate" datetime="2010-10-03T10:20:00">Sun 03 October 2010</time>
+                </li>
+            </ul>
+        </div>
+    </div>
 </div>
-  <footer>
-    <a rel="full-article" href="http://localhost:8000/articles-zh/user-interface.html">Read On &crarr;</a>
-  </footer>
-  		</article>
-  		<article>
-<header>
-      <h1 class="entry-title">
-        <a href="http://localhost:8000/articles-zh/architecture.html">Architecture</a>
-      </h1>
-      <p class="meta"><time datetime="2010-10-03T10:20:00" pubdate>Sun 03 October 2010</time></p>
-</header>
-
-  <div class="entry-content"><p class="first last">Architecture smmary Architecture smmary Architecture smmary
-Architecture smmary Architecture smmary Architecture smmary
-Architecture smmary Architecture smmary Architecture smmary
-Architecture smmary Architecture smmary Architecture smmary
-Architecture smmary Architecture smmary Architecture smmary Architecture smmary
-Architecture smmary Architecture smmary Architecture smmary Architecture smmary</p>
-</div>
-  <footer>
-    <a rel="full-article" href="http://localhost:8000/articles-zh/architecture.html">Read On &crarr;</a>
-  </footer>
-  		</article>
-  		<article>
-<header>
-      <h1 class="entry-title">
-        <a href="http://localhost:8000/articles-zh/database.html">Database</a>
-      </h1>
-      <p class="meta"><time datetime="2010-10-03T10:20:00" pubdate>Sun 03 October 2010</time></p>
-</header>
-
-  <div class="entry-content"><div class="section" id="overview">
-<h2>Overview</h2>
-<div class="section" id="more-considerations">
-<h3>More Considerations</h3>
-<p>need to have some way to verify the database file is not corrupted</p>
-</div>
-<div class="section" id="about-dtos">
-<h3>About DTOs</h3>
-<p>Only the relation tables are automatically created by the EF ORM framework,
-other tables all have a relevant DTO object with the same name.</p>
-</div>
-<div class="section" id="database-merging">
-<h3>Database Merging</h3>
-<ul class="simple">
-<li>Need database merging interfaces</li>
-<li>Need object ...</li></ul></div></div></div>
-  <footer>
-    <a rel="full-article" href="http://localhost:8000/articles-zh/database.html">Read On &crarr;</a>
-  </footer>
-  		</article>
-  		<article>
-<header>
-      <h1 class="entry-title">
-        <a href="http://localhost:8000/articles-zh/implementation-notes.html">Implementation Notes</a>
-      </h1>
-      <p class="meta"><time datetime="2010-10-03T10:20:00" pubdate>Sun 03 October 2010</time></p>
-</header>
-
-  <div class="entry-content"><div class="contents topic" id="contents">
-<p class="topic-title first">Contents</p>
-<ul class="simple">
-<li><a class="reference internal" href="#if-find-any-build-runtime-problem" id="id1">If find any build/runtime problem</a></li>
-<li><a class="reference internal" href="#ticommon" id="id2">TiCommon</a></li>
-<li><a class="reference internal" href="#tidesk-the-ui-layer" id="id3">TiDesk (the UI layer)</a><ul>
-<li><a class="reference internal" href="#mix-using-wpf-and-winform" id="id4">Mix using WPF and WinForm</a></li>
-</ul>
-</li>
-<li><a class="reference internal" href="#ticore-the-bl-layer" id="id5">TiCore (the BL layer)</a><ul>
-<li><a class="reference internal" href="#serialization" id="id6">Serialization</a></li>
-</ul>
-</li>
-</ul>
-</div>
-<div class="section" id="if-find-any-build-runtime-problem">
-<h2><a class="toc-backref" href="#id1">If find any build/runtime problem</a></h2>
-<pre class="code java literal-block">
-<span class="kd">public</span> <span class="kt">void</span> <span class="nf">setReceivingSendSyncDResponse</span><span class="o">(</span><span class="kt">boolean</span> <span class="n">isReceivingSendSyncDResponse</span><span class="o">)</span>
-<span class="o">{</span>
-    <span class="k">this</span><span class="o">.</span><span class="na">isReceivingSendSyncDResponse</span> <span class="o">=</span> <span class="n">isReceivingSendSyncDResponse</span><span class="o">;</span>
-
-    <span class="k">if</span><span class="o">(</span><span class="n">isReceivingSendSyncDResponse</span><span class="o">)</span>
-    <span class="o">{</span>
-        <span class="n">msgSet</span> <span class="o">=</span> <span class="k">new</span> <span class="n">DynetReceivedMessageSet</span><span class="o">(</span><span class="n">network</span><span class="o">);</span>
-    <span class="o">}</span>
-    <span class="k">else</span>
-    <span class="o">{</span>
-            <span class="n">sendSyndDReturn</span> <span class="o">=</span> <span class="k">new</span> <span class="n">DynetReadResponse</span><span class="o">(</span><span class="n">network</span><span class="o">);</span>
-            <span class="n">sendSyndDReturn</span><span class="o">.</span><span class="na">readResponse</span><span class="o">(</span><span class="n">sendSyndDRsp ...</span></pre></div></div>
-  <footer>
-    <a rel="full-article" href="http://localhost:8000/articles-zh/implementation-notes.html">Read On &crarr;</a>
-  </footer>
-  		</article>
-  		<article>
-<header>
-      <h1 class="entry-title">
-        <a href="http://localhost:8000/articles-zh/product.html">Product</a>
-      </h1>
-      <p class="meta"><time datetime="2010-10-03T10:20:00" pubdate>Sun 03 October 2010</time></p>
-</header>
-
-  <div class="entry-content"></div>
-  <footer>
-    <a rel="full-article" href="http://localhost:8000/articles-zh/product.html">Read On &crarr;</a>
-  </footer>
-  		</article>
-  		<article>
-<header>
-      <h1 class="entry-title">
-        <a href="http://localhost:8000/articles-zh/project.html">Project</a>
-      </h1>
-      <p class="meta"><time datetime="2010-10-03T10:20:00" pubdate>Sun 03 October 2010</time></p>
-</header>
-
-  <div class="entry-content"><div class="contents topic" id="contents">
-<p class="topic-title first">Contents</p>
-<ul class="simple">
-<li><a class="reference internal" href="#console-commands" id="id2">Console Commands</a></li>
-<li><a class="reference internal" href="#versions" id="id3">Versions</a></li>
-<li><a class="reference internal" href="#technology-stack" id="id4">Technology Stack</a><ul>
-<li><a class="reference internal" href="#misc" id="id5">Misc</a></li>
-<li><a class="reference internal" href="#libs" id="id6">Libs</a></li>
-<li><a class="reference internal" href="#cloud-platform" id="id7">Cloud Platform</a></li>
-</ul>
-</li>
-<li><a class="reference internal" href="#configurations" id="id8">Configurations</a></li>
-</ul>
-</div>
-<div class="section" id="console-commands">
-<h2><a class="toc-backref" href="#id2">Console Commands</a></h2>
-<p>Use py33.bat or vedjango142_v-env.bat</p>
-</div>
-<div class="section" id="versions">
-<h2><a class="toc-backref" href="#id3">Versions</a></h2>
-<p>It is decided to develop multiple prototype versions:</p>
-<ul class="simple">
-<li>(main) Python version (probably with some performance critical java components), and</li>
-<li>C# version, and</li>
-<li>(optional) Java version</li>
-</ul>
-<p>to compare those technology and ...</p></div></div>
-  <footer>
-    <a rel="full-article" href="http://localhost:8000/articles-zh/project.html">Read On &crarr;</a>
-  </footer>
-  		</article>
-  		<article>
-<header>
-      <h1 class="entry-title">
-        <a href="http://localhost:8000/articles-zh/testing.html">Testing</a>
-      </h1>
-      <p class="meta"><time datetime="2010-10-03T10:20:00" pubdate>Sun 03 October 2010</time></p>
-</header>
-
-  <div class="entry-content"><div class="section" id="manual-testing">
-<h2>Manual Testing</h2>
-<ul class="simple">
-<li>Notify icon</li>
-</ul>
-</div>
-<div class="section" id="test-large-amount-of-tasks">
-<h2>Test Large Amount of Tasks</h2>
-<p>Run TiDesk and execute the relevant commands in the &quot;Test&quot; menu.</p>
-</div>
-</div>
-  <footer>
-    <a rel="full-article" href="http://localhost:8000/articles-zh/testing.html">Read On &crarr;</a>
-  </footer>
-  		</article>
-<div class="pagination">
-
-  <br />
-</div></div>
-<aside class="sidebar">
-  <section>
-    <h1>Recent Posts</h1>
-    <ul id="recent_posts">
-      <li class="post">
-          <a href="http://localhost:8000/articles-zh/user-interface.html">User Interface</a>
-      </li>
-      <li class="post">
-          <a href="http://localhost:8000/articles-zh/architecture.html">Architecture</a>
-      </li>
-      <li class="post">
-          <a href="http://localhost:8000/articles-zh/database.html">Database</a>
-      </li>
-      <li class="post">
-          <a href="http://localhost:8000/articles-zh/implementation-notes.html">Implementation Notes</a>
-      </li>
-      <li class="post">
-          <a href="http://localhost:8000/articles-zh/product.html">Product</a>
-      </li>
+                </div>
+                <div class="span1"></div>
+            </div>
+        </div>
+    </div>
+<footer>
+<div id="footer">
+    <ul class="footer-content">
+        <li class="elegant-power">Powered by <a href="http://getpelican.com/" title="Pelican Home Page">Pelican</a>. Theme: <a href="http://oncrashreboot.com/pelican-elegant" title="Theme Elegant Home Page">Elegant</a> by <a href="http://oncrashreboot.com" title="Talha Mansoor Home Page">Talha Mansoor</a></li>
     </ul>
-  </section>
-  <section>
-      
-    <h1>Categories</h1>
-    <ul id="recent_posts">
-        <li><a href="http://localhost:8000/articles-zh/category/blabla.html">blabla</a></li>
-        <li><a href="http://localhost:8000/articles-zh/category/fancy.html">fancy</a></li>
-        <li><a href="http://localhost:8000/articles-zh/category/moon.html">moon</a></li>
-    </ul>
-  </section>
- 
-
-  <section>
-  <h1>Tags</h1>
-    <a href="http://localhost:8000/articles-zh/tag/thats.html">thats</a>,    <a href="http://localhost:8000/articles-zh/tag/awesome.html">awesome</a>,    <a href="http://localhost:8000/articles-zh/tag/aaa.html">aaa</a>,    <a href="http://localhost:8000/articles-zh/tag/bbb.html">bbb</a>  </section>
-
-
-
-</aside>    </div>
-  </div>
-  <footer role="contentinfo"><p>
-  Copyright &copy; 2013 - 李某 -
-  <span class="credit">Powered by <a href="http://getpelican.com">Pelican</a></span>
-</p></footer>
-	<script type="text/javascript">
-	  var disqus_shortname = 'ron115';
-	  (function() {
-	    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-	    dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-	    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-	   })();
-	</script>
-</body>
+</div>
+</footer>        <script src="http://code.jquery.com/jquery.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+        <script>
+            function validateForm(query)
+            {
+                return (query.length > 0);
+            }
+        </script>
+    </body>
 </html>

@@ -1,112 +1,159 @@
 <!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
-<head>
-  <meta charset="utf-8">
-  <title>Pelican测试</title>
-  <meta name="author" content="李某">
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="李某" />
+        <meta name="copyright" content="李某" />
+
+        <title>All Categories · Pelican测试
+</title>
+        <link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="http://localhost:8000/articles-zh/theme/css/style.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="http://localhost:8000/articles-zh/theme/css/solarizedlight.css" media="screen">
+        <link rel="shortcut icon" href="http://localhost:8000/articles-zh/theme/images/favicon.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="http://localhost:8000/articles-zh/theme/images/apple-touch-icon.png" />
+        <link rel="apple-touch-icon" sizes="57x57" href="http://localhost:8000/articles-zh/theme/images/apple-touch-icon-57x57.png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="http://localhost:8000/articles-zh/theme/images/apple-touch-icon-72x72.png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="http://localhost:8000/articles-zh/theme/images/apple-touch-icon-114x114.png" />
+        <link rel="apple-touch-icon" sizes="144x144" href="http://localhost:8000/articles-zh/theme/images/apple-touch-icon-144x144.png" />
+        <link rel="icon" href="http://localhost:8000/articles-zh/theme/images/apple-touch-icon-144x144.png" />
+        <link href="http://localhost:8000/articles-zh/feeds\all.atom.xml" type="application/atom+xml" rel="alternate" title="Pelican测试 - Full Atom Feed" />
+        <link href="http://localhost:8000/articles-zh/feeds\blabla.atom.xml" type="application/atom+xml" rel="alternate" title="Pelican测试 - blabla Category Atom Feed" />
+        <link href="http://localhost:8000/articles-zh/feeds\fancy.atom.xml" type="application/atom+xml" rel="alternate" title="Pelican测试 - fancy Category Atom Feed" />
+        <link href="http://localhost:8000/articles-zh/feeds\moon.atom.xml" type="application/atom+xml" rel="alternate" title="Pelican测试 - moon Category Atom Feed" />
+    </head>
+    <body>
+        <div id="content-sans-footer">
+        <div class="navbar navbar-static-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="http://localhost:8000/articles-zh/"><span class=site-name>Pelican测试</span></a>
+                    <div class="nav-collapse collapse">
+                        <ul class="nav pull-right top-menu">
+                            <li ><a href="http://localhost:8000/articles-zh">Home</a></li>
+                            <li ><a href="http://localhost:8000/articles-zh/pages/forum.html">Forum</a></li>
+                            <li  class="active"><a href="http://localhost:8000/articles-zh/categories.html">Categories</a></li>
+                            <li ><a href="http://localhost:8000/articles-zh/tags.html">Tags</a></li>
+                            <li ><a href="http://localhost:8000/articles-zh/archives.html">Archives</a></li>
+                            <li><form class="navbar-search" action="http://localhost:8000/articles-zh/search.html" onsubmit="return validateForm(this.elements['q'].value);"> <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input"></form></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span1"></div>
+                <div class="span10">
+<div class="row-fluid">
+    <header class="page_header span10 offset2">
+        <h1><a href="http://localhost:8000/articles-zh/categories.html">All Categories</a></h1>
+    </header>
+</div>
 
 
-
-  <!-- http://t.co/dKP3o1e -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <link href="http://localhost:8000/articles-zh/favicon.png" rel="icon">
-  <link href="http://localhost:8000/articles-zh/theme/css/main.css" media="screen, projection"
-        rel="stylesheet" type="text/css">
-  <script src="http://localhost:8000/articles-zh/theme/js/modernizr-2.0.js"></script>
-  <script src="http://localhost:8000/articles-zh/theme/js/ender.js"></script>
-  <script src="http://localhost:8000/articles-zh/theme/js/octopress.js" type="text/javascript"></script>
-
-  <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic"
-        rel="stylesheet" type="text/css">
-  <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic"
-        rel="stylesheet" type="text/css">
-</head>
-
-<body>
-  <header role="banner"><hgroup>
-  <h1><a href="http://localhost:8000/articles-zh/">Pelican测试</a></h1>
-</hgroup></header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="http://localhost:8000/articles-zh/" rel="subscribe-rss">RSS</a></li>
-</ul>
-
-<!-- TODO: add search here
-<form action="" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="q" value="site:http://localhost:8000/articles-zh" />
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
--->
-
-<ul class="main-navigation">
-    <li><a href="http://localhost:8000/articles-en">English (英文)</a></li>
-      <li><a href="http://localhost:8000/articles-zh/pages/forum.html">Forum</a></li>
-    <!-- TODO: add categories here? -->
-</ul></nav>
-  <div id="main">
-    <div id="content">
-<ul>
-    <li><a href="http://localhost:8000/articles-zh/category/blabla.html">blabla</a></li>
-    <li><a href="http://localhost:8000/articles-zh/category/fancy.html">fancy</a></li>
-    <li><a href="http://localhost:8000/articles-zh/category/moon.html">moon</a></li>
-</ul>
-<aside class="sidebar">
-  <section>
-    <h1>Recent Posts</h1>
-    <ul id="recent_posts">
-      <li class="post">
-          <a href="http://localhost:8000/articles-zh/user-interface.html">User Interface</a>
-      </li>
-      <li class="post">
-          <a href="http://localhost:8000/articles-zh/1234.html">1234</a>
-      </li>
-      <li class="post">
-          <a href="http://localhost:8000/articles-zh/my-super-title.html">My super title</a>
-      </li>
-      <li class="post">
-          <a href="http://localhost:8000/articles-zh/this-is-some-title.html">This is some title</a>
-      </li>
-      <li class="post">
-          <a href="http://localhost:8000/articles-zh/architecture.html">Architecture</a>
-      </li>
-    </ul>
-  </section>
-  <section>
-      
-    <h1>Categories</h1>
-    <ul id="recent_posts">
-        <li><a href="http://localhost:8000/articles-zh/category/blabla.html">blabla</a></li>
-        <li><a href="http://localhost:8000/articles-zh/category/fancy.html">fancy</a></li>
-        <li><a href="http://localhost:8000/articles-zh/category/moon.html">moon</a></li>
-    </ul>
-  </section>
+<div class="row-fluid">
+    <div class="span8 offset2">
+        <div class="accordion" id="accordion2">
+            <div class="accordion-group">
+                <div class="accordion-heading">
+                    <a class="accordion-toggle list-of-categories" data-toggle="collapse" data-parent="#accordion2" href="#blabla-ref">
+                        blabla<span>2</span>
+                    </a>
+                </div>
+                <div id="blabla-ref" class="accordion-body collapse">
+                    <div class="accordion-inner">
+                        <ul class="list-articles-category">
  
+                            <li><span><time pubdate="pubdate" datetime="2013-12-03T10:21:00">Tue 03 December 2013</time></span> <a href="http://localhost:8000/articles-zh/my-super-title.html">My super title  </a></li>
+ 
+                            <li><span><time pubdate="pubdate" datetime="2011-10-03T10:20:00">Mon 03 October 2011</time></span> <a href="http://localhost:8000/articles-zh/this-is-some-title.html">This is some title  </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-group">
+                <div class="accordion-heading">
+                    <a class="accordion-toggle list-of-categories" data-toggle="collapse" data-parent="#accordion2" href="#fancy-ref">
+                        fancy<span>7</span>
+                    </a>
+                </div>
+                <div id="fancy-ref" class="accordion-body collapse">
+                    <div class="accordion-inner">
+                        <ul class="list-articles-category">
+ 
+                            <li><span><time pubdate="pubdate" datetime="2013-12-23T10:20:00">Mon 23 December 2013</time></span> <a href="http://localhost:8000/articles-zh/user-interface.html">User Interface  </a></li>
+ 
+                            <li><span><time pubdate="pubdate" datetime="2010-10-03T10:20:00">Sun 03 October 2010</time></span> <a href="http://localhost:8000/articles-zh/architecture.html">Architecture  </a></li>
+ 
+                            <li><span><time pubdate="pubdate" datetime="2010-10-03T10:20:00">Sun 03 October 2010</time></span> <a href="http://localhost:8000/articles-zh/database.html">Database  </a></li>
+ 
+                            <li><span><time pubdate="pubdate" datetime="2010-10-03T10:20:00">Sun 03 October 2010</time></span> <a href="http://localhost:8000/articles-zh/implementation-notes.html">Implementation Notes  </a></li>
+ 
+                            <li><span><time pubdate="pubdate" datetime="2010-10-03T10:20:00">Sun 03 October 2010</time></span> <a href="http://localhost:8000/articles-zh/product.html">Product  </a></li>
+ 
+                            <li><span><time pubdate="pubdate" datetime="2010-10-03T10:20:00">Sun 03 October 2010</time></span> <a href="http://localhost:8000/articles-zh/project.html">Project  </a></li>
+ 
+                            <li><span><time pubdate="pubdate" datetime="2010-10-03T10:20:00">Sun 03 October 2010</time></span> <a href="http://localhost:8000/articles-zh/testing.html">Testing  </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-group">
+                <div class="accordion-heading">
+                    <a class="accordion-toggle list-of-categories" data-toggle="collapse" data-parent="#accordion2" href="#moon-ref">
+                        moon<span>1</span>
+                    </a>
+                </div>
+                <div id="moon-ref" class="accordion-body collapse">
+                    <div class="accordion-inner">
+                        <ul class="list-articles-category">
+ 
+                            <li><span><time pubdate="pubdate" datetime="2013-12-03T10:21:00">Tue 03 December 2013</time></span> <a href="http://localhost:8000/articles-zh/1234.html">1234  </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                </div>
+                <div class="span1"></div>
+            </div>
+        </div>
+    </div>
+<footer>
+<div id="footer">
+    <ul class="footer-content">
+        <li class="elegant-power">Powered by <a href="http://getpelican.com/" title="Pelican Home Page">Pelican</a>. Theme: <a href="http://oncrashreboot.com/pelican-elegant" title="Theme Elegant Home Page">Elegant</a> by <a href="http://oncrashreboot.com" title="Talha Mansoor Home Page">Talha Mansoor</a></li>
+    </ul>
+</div>
+</footer>        <script src="http://code.jquery.com/jquery.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+        <script>
+            function validateForm(query)
+            {
+                return (query.length > 0);
+            }
+        </script>
 
-  <section>
-  <h1>Tags</h1>
-    <a href="http://localhost:8000/articles-zh/tag/thats.html">thats</a>,    <a href="http://localhost:8000/articles-zh/tag/awesome.html">awesome</a>,    <a href="http://localhost:8000/articles-zh/tag/aaa.html">aaa</a>,    <a href="http://localhost:8000/articles-zh/tag/bbb.html">bbb</a>  </section>
+<script  language="javascript" type="text/javascript">
+    function uncollapse() {
+            $(window.location.hash).collapse({
+                toggle: true
+            })
+    }
+</script>
 
-
-
-</aside>    </div>
-  </div>
-  <footer role="contentinfo"><p>
-  Copyright &copy; 2013 - 李某 -
-  <span class="credit">Powered by <a href="http://getpelican.com">Pelican</a></span>
-</p></footer>
-	<script type="text/javascript">
-	  var disqus_shortname = 'ron115';
-	  (function() {
-	    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-	    dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-	    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-	   })();
-	</script>
-</body>
+<script type="text/javascript" language="JavaScript">
+    uncollapse(); 
+</script>
+    </body>
 </html>

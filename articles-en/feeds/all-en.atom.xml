@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>My Site</title><link href="http://localhost:8000/articles-en/" rel="alternate"></link><link href="http://localhost:8000/articles-en/feeds%5Call-en.atom.xml" rel="self"></link><id>http://localhost:8000/articles-en/</id><updated>2013-12-23T10:20:00+11:00</updated><entry><title>User Interface</title><link href="http://localhost:8000/articles-en/user-interface.html" rel="alternate"></link><updated>2013-12-23T10:20:00+11:00</updated><author><name>Ron</name></author><id>tag:localhost:8000,2013-12-23:articles-en/user-interface.html</id><summary type="html">&lt;div class="contents topic" id="contents"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>My Site</title><link href="http://localhost:8000/articles-en/" rel="alternate"></link><link href="http://localhost:8000/articles-en/feeds%5Call-en.atom.xml" rel="self"></link><id>http://localhost:8000/articles-en/</id><updated>2013-12-23T10:20:00+11:00</updated><entry><title>User Interface</title><link href="http://localhost:8000/articles-en/user-interface.html" rel="alternate"></link><updated>2013-12-23T10:20:00+11:00</updated><author><name>Ron</name></author><id>tag:localhost:8000/articles-en,2013-12-23:user-interface.html</id><summary type="html">&lt;div class="contents topic" id="contents"&gt;
 &lt;p class="topic-title first"&gt;Contents&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;&lt;a class="reference internal" href="#misc" id="id1"&gt;Misc&lt;/a&gt;&lt;/li&gt;
@@ -314,7 +314,7 @@ search
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+=]
 &lt;/pre&gt;
 &lt;/div&gt;
-</summary></entry><entry><title>1234</title><link href="http://localhost:8000/articles-en/1234.html" rel="alternate"></link><updated>2013-12-03T10:21:00+11:00</updated><author><name>Ron</name></author><id>tag:localhost:8000,2013-12-03:articles-en/1234.html</id><summary type="html">&lt;p&gt;Test&lt;/p&gt;
+</summary></entry><entry><title>1234</title><link href="http://localhost:8000/articles-en/1234.html" rel="alternate"></link><updated>2013-12-03T10:21:00+11:00</updated><author><name>Ron</name></author><id>tag:localhost:8000/articles-en,2013-12-03:1234.html</id><summary type="html">&lt;p&gt;Test&lt;/p&gt;
 &lt;img alt="some image text" src="https://lh4.googleusercontent.com/N7d0zE6evji5PoadmfJhqZ0yLpH_2OWvfLjABawBJMFehLhhaQdrRS0DOSKsX0mKqX8sPp8j5POzLef2GX7Oj83VOYD9xaXYli98xrBzG760HYRaBsgJPesgGQ" /&gt;
 &lt;p&gt;bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
 bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
@@ -338,7 +338,7 @@ bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
 bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
 bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
 bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla&lt;/p&gt;
-</summary><category term="thats"></category><category term="awesome"></category></entry><entry><title>My super title</title><link href="http://localhost:8000/articles-en/my-super-title.html" rel="alternate"></link><updated>2013-12-03T10:21:00+11:00</updated><author><name>Ron</name></author><id>tag:localhost:8000,2013-12-03:articles-en/my-super-title.html</id><summary type="html">&lt;p&gt;Test&lt;/p&gt;
+</summary><category term="thats"></category><category term="awesome"></category></entry><entry><title>My super title</title><link href="http://localhost:8000/articles-en/my-super-title.html" rel="alternate"></link><updated>2013-12-03T10:21:00+11:00</updated><author><name>Ron</name></author><id>tag:localhost:8000/articles-en,2013-12-03:my-super-title.html</id><summary type="html">&lt;p&gt;Test&lt;/p&gt;
 &lt;img alt="some image text" src="https://lh4.googleusercontent.com/N7d0zE6evji5PoadmfJhqZ0yLpH_2OWvfLjABawBJMFehLhhaQdrRS0DOSKsX0mKqX8sPp8j5POzLef2GX7Oj83VOYD9xaXYli98xrBzG760HYRaBsgJPesgGQ" style="width: 71px; height: 71px;" /&gt;
 &lt;p&gt;Test&lt;/p&gt;
 &lt;p&gt;hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello
@@ -383,7 +383,7 @@ hello hello hello hello hello hello hello hello hello hello hello hello hello he
 hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello
 hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello
 hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello&lt;/p&gt;
-</summary><category term="thats"></category><category term="awesome"></category></entry><entry><title>This is some title</title><link href="http://localhost:8000/articles-en/this-is-some-title.html" rel="alternate"></link><updated>2011-10-03T10:20:00+11:00</updated><author><name>Ron</name></author><id>tag:localhost:8000,2011-10-03:articles-en/this-is-some-title.html</id><summary type="html">&lt;p&gt;hello hello hello hellohello hello hello hellohello hello hello hellohello hello hello hellohello hello hello hello
+</summary><category term="thats"></category><category term="awesome"></category></entry><entry><title>This is some title</title><link href="http://localhost:8000/articles-en/this-is-some-title.html" rel="alternate"></link><updated>2011-10-03T10:20:00+11:00</updated><author><name>Ron</name></author><id>tag:localhost:8000/articles-en,2011-10-03:this-is-some-title.html</id><summary type="html">&lt;p&gt;hello hello hello hellohello hello hello hellohello hello hello hellohello hello hello hellohello hello hello hello
 hello hello hello hellohello hello hello hellohello hello hello hellohello hello hello hellohello hello hello hello
 hello hello hello hellohello hello hello hellohello hello hello hellohello hello hello hellohello hello hello hello&lt;/p&gt;
 &lt;p&gt;hello hello hello hellohello hello hello hellohello hello hello hellohello hello hello hellohello hello hello hello
@@ -401,7 +401,7 @@ hello hello hello hellohello hello hello hellohello hello hello hellohello hello
 hello hello hello hellohello hello hello hellohello hello hello hellohello hello hello hellohello hello hello hello
 hello hello hello hellohello hello hello hellohello hello hello hellohello hello hello hellohello hello hello hello
 hello hello hello hellohello hello hello hellohello hello hello hellohello hello hello hellohello hello hello hello&lt;/p&gt;
-</summary><category term="bbb"></category><category term="aaa"></category></entry><entry><title>Architecture</title><link href="http://localhost:8000/articles-en/architecture.html" rel="alternate"></link><updated>2010-10-03T10:20:00+11:00</updated><author><name>Ron</name></author><id>tag:localhost:8000,2010-10-03:articles-en/architecture.html</id><summary type="html">&lt;div class="contents topic" id="contents"&gt;
+</summary><category term="bbb"></category><category term="aaa"></category></entry><entry><title>Architecture</title><link href="http://localhost:8000/articles-en/architecture.html" rel="alternate"></link><updated>2010-10-03T10:20:00+11:00</updated><author><name>Ron</name></author><id>tag:localhost:8000/articles-en,2010-10-03:architecture.html</id><summary type="html">&lt;div class="contents topic" id="contents"&gt;
 &lt;p class="topic-title first"&gt;Contents&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;&lt;a class="reference internal" href="#basic-architecture" id="id1"&gt;Basic Architecture&lt;/a&gt;&lt;/li&gt;
@@ -493,7 +493,7 @@ clients will update that client's status in the database if they cannot reach it
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-</summary></entry><entry><title>Database</title><link href="http://localhost:8000/articles-en/database.html" rel="alternate"></link><updated>2010-10-03T10:20:00+11:00</updated><author><name>Ron</name></author><id>tag:localhost:8000,2010-10-03:articles-en/database.html</id><summary type="html">&lt;div class="section" id="overview"&gt;
+</summary></entry><entry><title>Database</title><link href="http://localhost:8000/articles-en/database.html" rel="alternate"></link><updated>2010-10-03T10:20:00+11:00</updated><author><name>Ron</name></author><id>tag:localhost:8000/articles-en,2010-10-03:database.html</id><summary type="html">&lt;div class="section" id="overview"&gt;
 &lt;h2&gt;Overview&lt;/h2&gt;
 &lt;div class="section" id="more-considerations"&gt;
 &lt;h3&gt;More Considerations&lt;/h3&gt;
@@ -513,7 +513,7 @@ other tables all have a relevant DTO object with the same name.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</summary></entry><entry><title>Implementation Notes</title><link href="http://localhost:8000/articles-en/implementation-notes.html" rel="alternate"></link><updated>2010-10-03T10:20:00+11:00</updated><author><name>Ron</name></author><id>tag:localhost:8000,2010-10-03:articles-en/implementation-notes.html</id><summary type="html">&lt;div class="contents topic" id="contents"&gt;
+</summary></entry><entry><title>Implementation Notes</title><link href="http://localhost:8000/articles-en/implementation-notes.html" rel="alternate"></link><updated>2010-10-03T10:20:00+11:00</updated><author><name>Ron</name></author><id>tag:localhost:8000/articles-en,2010-10-03:implementation-notes.html</id><summary type="html">&lt;div class="contents topic" id="contents"&gt;
 &lt;p class="topic-title first"&gt;Contents&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;&lt;a class="reference internal" href="#if-find-any-build-runtime-problem" id="id1"&gt;If find any build/runtime problem&lt;/a&gt;&lt;/li&gt;
@@ -584,7 +584,7 @@ in asp.net mvc, it can, however, be performed by a customized function using Xml
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</summary></entry><entry><title>Product</title><link href="http://localhost:8000/articles-en/product.html" rel="alternate"></link><updated>2010-10-03T10:20:00+11:00</updated><author><name>Ron</name></author><id>tag:localhost:8000,2010-10-03:articles-en/product.html</id><summary type="html"></summary></entry><entry><title>Project</title><link href="http://localhost:8000/articles-en/project.html" rel="alternate"></link><updated>2010-10-03T10:20:00+11:00</updated><author><name>Ron</name></author><id>tag:localhost:8000,2010-10-03:articles-en/project.html</id><summary type="html">&lt;div class="contents topic" id="contents"&gt;
+</summary></entry><entry><title>Product</title><link href="http://localhost:8000/articles-en/product.html" rel="alternate"></link><updated>2010-10-03T10:20:00+11:00</updated><author><name>Ron</name></author><id>tag:localhost:8000/articles-en,2010-10-03:product.html</id><summary type="html"></summary></entry><entry><title>Project</title><link href="http://localhost:8000/articles-en/project.html" rel="alternate"></link><updated>2010-10-03T10:20:00+11:00</updated><author><name>Ron</name></author><id>tag:localhost:8000/articles-en,2010-10-03:project.html</id><summary type="html">&lt;div class="contents topic" id="contents"&gt;
 &lt;p class="topic-title first"&gt;Contents&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;&lt;a class="reference internal" href="#console-commands" id="id2"&gt;Console Commands&lt;/a&gt;&lt;/li&gt;
@@ -690,7 +690,7 @@ it is proven that using other technology, e.g. Java or C#, can deliver faster or
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;/div&gt;
-</summary></entry><entry><title>Testing</title><link href="http://localhost:8000/articles-en/testing.html" rel="alternate"></link><updated>2010-10-03T10:20:00+11:00</updated><author><name>Ron</name></author><id>tag:localhost:8000,2010-10-03:articles-en/testing.html</id><summary type="html">&lt;div class="section" id="manual-testing"&gt;
+</summary></entry><entry><title>Testing</title><link href="http://localhost:8000/articles-en/testing.html" rel="alternate"></link><updated>2010-10-03T10:20:00+11:00</updated><author><name>Ron</name></author><id>tag:localhost:8000/articles-en,2010-10-03:testing.html</id><summary type="html">&lt;div class="section" id="manual-testing"&gt;
 &lt;h2&gt;Manual Testing&lt;/h2&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;Notify icon&lt;/li&gt;

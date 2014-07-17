@@ -17,15 +17,6 @@ DISQUS_SITENAME = 'ron115'
 #DIRECT_TEMPLATES = ('index', 'tags', 'categories', 'archives', 'search',)
 
 
-#PLUGIN_PATH = 'plugins'
-#PLUGINS = ['tipue_search']
-
-
-#FEED_ALL_ATOM = None
-#CATEGORY_FEED_ATOM = None
-#TRANSLATION_FEED_ATOM = None
-
-
 # Blogroll
 #LINKS = (
 #        ('Reddit Programming', 'http://www.reddit.com/r/programming/'),
@@ -36,3 +27,19 @@ DISQUS_SITENAME = 'ron115'
 # Social widget
 #SOCIAL = (('You can add links in your config file', '#'),
 #          ('Another social link', '#'),)
+
+
+# Plugin Config
+#===========================================================================
+#PLUGIN_PATH = 'plugins'
+#PLUGINS = ['tipue_search']
+
+
+# ATOM Config
+#===========================================================================
+#FEED_ALL_ATOM = 'feeds/all.atom.xml'
+#FEED_ALL_ATOM = None
+#CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
+#CATEGORY_FEED_ATOM = None
+#TRANSLATION_FEED_ATOM = None
+
