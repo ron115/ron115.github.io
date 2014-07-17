@@ -44,9 +44,11 @@ AUTHOR_SAVE_AS = ''
 # =========================================================================================
 AUTHOR = '李某'
 SITENAME = "Pelican测试"
-SITEURL = SITEURL_ROOT + '/articles-zh'
+#SITEURL = SITEURL_ROOT + '/articles-zh'
+SITEURL = SITEURL_ZH
 DEFAULT_LANG = 'zh_cn'
 MENUITEMS = (
-            ('English (英文)', SITEURL_ROOT + '/articles-en'),
+            #('English (英文)', SITEURL_ROOT + '/articles-en'),
+            ('English (英文)', SITEURL_EN),
             )
 DISPLAY_PAGES_ON_MENU = True

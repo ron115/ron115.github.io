@@ -4,175 +4,175 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>http://localhost:8000/articles-zh/index.html</loc>
-<lastmod>2014-07-17T13:46:22-00:00</lastmod>
+<loc>/articles-zh/index.html</loc>
+<lastmod>2014-07-17T14:03:39-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/articles-zh/archives.html</loc>
-<lastmod>2014-07-17T13:46:22-00:00</lastmod>
+<loc>/articles-zh/archives.html</loc>
+<lastmod>2014-07-17T14:03:39-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/articles-zh/tags.html</loc>
-<lastmod>2014-07-17T13:46:22-00:00</lastmod>
+<loc>/articles-zh/tags.html</loc>
+<lastmod>2014-07-17T14:03:39-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/articles-zh/categories.html</loc>
-<lastmod>2014-07-17T13:46:22-00:00</lastmod>
+<loc>/articles-zh/categories.html</loc>
+<lastmod>2014-07-17T14:03:39-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/articles-zh/pages/forum.html</loc>
-<lastmod>2014-07-17T13:46:22-00:00</lastmod>
+<loc>/articles-zh/pages/forum.html</loc>
+<lastmod>2014-07-17T14:03:39-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/articles-zh/user-interface.html</loc>
+<loc>/articles-zh/user-interface.html</loc>
 <lastmod>2013-12-23T10:20:00-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/articles-zh/1234.html</loc>
+<loc>/articles-zh/1234.html</loc>
 <lastmod>2013-12-03T10:21:00-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/articles-zh/my-super-title.html</loc>
+<loc>/articles-zh/my-super-title.html</loc>
 <lastmod>2013-12-03T10:21:00-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/articles-zh/this-is-some-title.html</loc>
+<loc>/articles-zh/this-is-some-title.html</loc>
 <lastmod>2011-10-03T10:20:00-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/articles-zh/architecture.html</loc>
+<loc>/articles-zh/architecture.html</loc>
 <lastmod>2010-10-03T10:20:00-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/articles-zh/database.html</loc>
+<loc>/articles-zh/database.html</loc>
 <lastmod>2010-10-03T10:20:00-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/articles-zh/implementation-notes.html</loc>
+<loc>/articles-zh/implementation-notes.html</loc>
 <lastmod>2010-10-03T10:20:00-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/articles-zh/product.html</loc>
+<loc>/articles-zh/product.html</loc>
 <lastmod>2010-10-03T10:20:00-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/articles-zh/project.html</loc>
+<loc>/articles-zh/project.html</loc>
 <lastmod>2010-10-03T10:20:00-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/articles-zh/testing.html</loc>
+<loc>/articles-zh/testing.html</loc>
 <lastmod>2010-10-03T10:20:00-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/articles-zh/category/blabla.html</loc>
+<loc>/articles-zh/category/blabla.html</loc>
 <lastmod>2013-12-03T10:21:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/articles-zh/category/fancy.html</loc>
+<loc>/articles-zh/category/fancy.html</loc>
 <lastmod>2013-12-23T10:20:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/articles-zh/category/moon.html</loc>
+<loc>/articles-zh/category/moon.html</loc>
 <lastmod>2013-12-03T10:21:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/articles-zh/tag/awesome.html</loc>
+<loc>/articles-zh/tag/awesome.html</loc>
 <lastmod>2013-12-03T10:21:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/articles-zh/tag/aaa.html</loc>
+<loc>/articles-zh/tag/aaa.html</loc>
 <lastmod>2011-10-03T10:20:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/articles-zh/tag/bbb.html</loc>
+<loc>/articles-zh/tag/bbb.html</loc>
 <lastmod>2011-10-03T10:20:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/articles-zh/tag/thats.html</loc>
+<loc>/articles-zh/tag/thats.html</loc>
 <lastmod>2013-12-03T10:21:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/articles-zh/author/li-mou.html</loc>
+<loc>/articles-zh/author/li-mou.html</loc>
 <lastmod>2013-12-23T10:20:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/articles-zh/1234-en.html</loc>
+<loc>/articles-zh/1234-en.html</loc>
 <lastmod>2013-12-03T10:21:00-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://localhost:8000/articles-zh/this-is-some-title-en.html</loc>
+<loc>/articles-zh/this-is-some-title-en.html</loc>
 <lastmod>2011-10-03T10:22:00-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>

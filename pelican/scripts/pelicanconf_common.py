@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-SITEURL_ROOT = 'http://localhost:8000'
-#SITEURL_ROOT = 'http://assert-false.com'
+SITEURL_EN = '/articles-en'
+SITEURL_ZH = '/articles-zh'
 
 
 TIMEZONE = 'Australia/Sydney'

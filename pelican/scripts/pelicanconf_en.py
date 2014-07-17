@@ -13,9 +13,11 @@ THEME = 'themes/gum'
 
 AUTHOR = 'Ron'
 SITENAME = "My Site"
-SITEURL = SITEURL_ROOT + '/articles-en'
+#SITEURL = SITEURL_ROOT + '/articles-en'
+SITEURL = SITEURL_EN
 DEFAULT_LANG = 'en'
 MENUITEMS = (
-            ('Chinese (中文)', SITEURL_ROOT + '/articles-zh'),
+            #('Chinese (中文)', SITEURL_ROOT + '/articles-zh'),
+            ('中文 (Chinese)', SITEURL_ZH),
             )
 DISPLAY_PAGES_ON_MENU = True
