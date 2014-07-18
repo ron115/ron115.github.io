@@ -38,3 +38,11 @@ bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
 bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
 bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
 bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+
+(以下用于中文搜索测试)
+
+优点：(1)易于添加新的操作。(2)Visitor对象可以包含一些对象之间的关联操作。 
+
+缺点：(1)不易于在对象结构中添加新的子类，因为这意味着要修改每个Visitor类。 
+
+实际上，在决定应用Visitor模式前，首先要考虑的问题是系统的哪个部分会经常变化。是作用于对象结构上的算法呢，还是构成该结构的各个对象的类。如果Element类层次是不稳定的，那每增加一个新的ConcreteElement类，就要修改Visiotr类层次的各个类，显然Visitor模式不适合这种情况。所以，Visitor模式最适用于Element类层次稳定而算法不稳定的情况。

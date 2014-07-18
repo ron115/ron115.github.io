@@ -14,8 +14,8 @@ from __future__ import unicode_literals
 # 
 # If not use DISQUS, it's OK to just set: SITEURL_ROOT = ''
 
-#SITEURL_ROOT = 'http://localhost:8000'         # for debug
-SITEURL_ROOT = 'http://assert-false.com'        # for publish
+#SITEURL_ROOT = 'http://localhost:8000'      # for debug (don't use an empty string, otherwise disqus won't work - see above comment)
+SITEURL_ROOT = 'http://assert-false.com'    # for publish
 
 SITEURL_EN = SITEURL_ROOT + '/en'
 SITEURL_ZH = SITEURL_ROOT + '/zh'
@@ -25,6 +25,7 @@ SITEURL_ZH = SITEURL_ROOT + '/zh'
 TIMEZONE = 'Australia/Sydney'
 DEFAULT_LANG = 'en'
 DEFAULT_PAGINATION = 10
+DISPLAY_PAGES_ON_MENU = True
 
 
 DISQUS_SITENAME = 'ron115'
@@ -59,3 +60,40 @@ DISQUS_SITENAME = 'ron115'
 #CATEGORY_FEED_ATOM = None
 #TRANSLATION_FEED_ATOM = None
 
+
+# Theme config
+# =========================================================================================
+#THEME = 'themes/pelican-octopress-theme'
+#THEME = 'themes/gum'
+THEME = 'themes/pelican-elegant-1.3'
+
+# configurations for pelican elegant theme
+# see: http://oncrashreboot.com/elegant-best-pelican-theme-features#configuration-variables
+# -----------------------------------------------------------------------------------------
+PLUGIN_PATH = 'plugins'
+PLUGINS = ['sitemap', 'extract_toc', 'tipue_search']
+
+# configuration for plugin 'sitemap'
+# see: https://github.com/getpelican/pelican-plugins/tree/master/sitemap
+SITEMAP = {
+    'format': 'xml',
+    'priorities': {
+        'articles': 0.5,
+        'indexes': 0.5,
+        'pages': 0.5
+    },
+    'changefreqs': {
+        'articles': 'monthly',
+        'indexes': 'daily',
+        'pages': 'monthly'
+    }
+}
+
+MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', 'headerid', 'toc']
+DIRECT_TEMPLATES = (('index', 'tags', 'categories','archives', 'search', '404'))
+STATIC_PATHS = ['theme/images', 'images']
+TAG_SAVE_AS = ''
+CATEGORY_SAVE_AS = ''
+AUTHOR_SAVE_AS = ''
+
+# =========================================================================================
