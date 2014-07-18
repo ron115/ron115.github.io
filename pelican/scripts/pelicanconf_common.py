@@ -17,8 +17,8 @@ from __future__ import unicode_literals
 #SITEURL_ROOT = 'http://localhost:8000'         # for debug
 SITEURL_ROOT = 'http://assert-false.com'        # for publish
 
-SITEURL_EN = SITEURL_ROOT + '/articles-en'
-SITEURL_ZH = SITEURL_ROOT + '/articles-zh'
+SITEURL_EN = SITEURL_ROOT + '/en'
+SITEURL_ZH = SITEURL_ROOT + '/zh'
 
 #===========================================================================
 
