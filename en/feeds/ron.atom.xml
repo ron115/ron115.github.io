@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>My Site</title><link href="http://localhost:8000/en/" rel="alternate"></link><link href="http://localhost:8000/en/feeds%5Cron.atom.xml" rel="self"></link><id>http://localhost:8000/en/</id><updated>2013-12-03T10:21:00+11:00</updated><entry><title>1234</title><link href="http://localhost:8000/en/1234.html" rel="alternate"></link><updated>2013-12-03T10:21:00+11:00</updated><author><name>Ron</name></author><id>tag:localhost:8000,2013-12-03:en/1234.html</id><summary type="html">&lt;p&gt;Test&lt;/p&gt;
+&lt;img alt="some image text" src="https://lh4.googleusercontent.com/N7d0zE6evji5PoadmfJhqZ0yLpH_2OWvfLjABawBJMFehLhhaQdrRS0DOSKsX0mKqX8sPp8j5POzLef2GX7Oj83VOYD9xaXYli98xrBzG760HYRaBsgJPesgGQ" /&gt;
+&lt;p&gt;bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla&lt;/p&gt;
+&lt;p&gt;bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla&lt;/p&gt;
+&lt;p&gt;bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla&lt;/p&gt;
+</summary><category term="thats"></category><category term="awesome"></category></entry><entry><title>My super title</title><link href="http://localhost:8000/en/my-super-title.html" rel="alternate"></link><updated>2013-12-03T10:21:00+11:00</updated><author><name>Ron</name></author><id>tag:localhost:8000,2013-12-03:en/my-super-title.html</id><summary type="html">&lt;p&gt;Test&lt;/p&gt;
+&lt;img alt="some image text" src="https://lh4.googleusercontent.com/N7d0zE6evji5PoadmfJhqZ0yLpH_2OWvfLjABawBJMFehLhhaQdrRS0DOSKsX0mKqX8sPp8j5POzLef2GX7Oj83VOYD9xaXYli98xrBzG760HYRaBsgJPesgGQ" style="width: 71px; height: 71px;" /&gt;
+&lt;p&gt;Test&lt;/p&gt;
+&lt;p&gt;hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello
+hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello
+hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello
+hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello
+hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello
+hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello
+hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello&lt;/p&gt;
+&lt;p&gt;hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello
+hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello
+hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello
+hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello
+hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello
+hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello
+hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello&lt;/p&gt;
+&lt;p&gt;hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello
+hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello
+hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello
+hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello
+hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello
+hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello&lt;/p&gt;
+&lt;p&gt;hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello
+hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello
+hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello
+hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello
+hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello
+hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello
+hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello
+hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello
+hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello
+hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello&lt;/p&gt;
+&lt;p&gt;hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello
+hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello
+hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello
+hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello&lt;/p&gt;
+&lt;p&gt;hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello
+hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello
+hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello
+hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello
+hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello
+hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello
+hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello
+hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello&lt;/p&gt;
+</summary><category term="thats"></category><category term="awesome"></category></entry><entry><title>This is some title</title><link href="http://localhost:8000/en/this-is-some-title.html" rel="alternate"></link><updated>2011-10-03T10:20:00+11:00</updated><author><name>Ron</name></author><id>tag:localhost:8000,2011-10-03:en/this-is-some-title.html</id><summary type="html">&lt;p&gt;hello hello hello hellohello hello hello hellohello hello hello hellohello hello hello hellohello hello hello hello
+hello hello hello hellohello hello hello hellohello hello hello hellohello hello hello hellohello hello hello hello
+hello hello hello hellohello hello hello hellohello hello hello hellohello hello hello hellohello hello hello hello&lt;/p&gt;
+&lt;p&gt;hello hello hello hellohello hello hello hellohello hello hello hellohello hello hello hellohello hello hello hello
+hello hello hello hellohello hello hello hellohello hello hello hellohello hello hello hellohello hello hello hello
+hello hello hello hellohello hello hello hellohello hello hello hellohello hello hello hellohello hello hello hello
+hello hello hello hellohello hello hello hellohello hello hello hellohello hello hello hellohello hello hello hello&lt;/p&gt;
+&lt;p&gt;hello hello hello hellohello hello hello hellohello hello hello hellohello hello hello hellohello hello hello hello
+hello hello hello hellohello hello hello hellohello hello hello hellohello hello hello hellohello hello hello hello
+hello hello hello hellohello hello hello hellohello hello hello hellohello hello hello hellohello hello hello hello
+hello hello hello hellohello hello hello hellohello hello hello hellohello hello hello hellohello hello hello hello
+hello hello hello hellohello hello hello hellohello hello hello hellohello hello hello hellohello hello hello hello
+hello hello hello hellohello hello hello hellohello hello hello hellohello hello hello hellohello hello hello hello
+hello hello hello hellohello hello hello hellohello hello hello hellohello hello hello hellohello hello hello hello&lt;/p&gt;
+&lt;p&gt;hello hello hello hellohello hello hello hellohello hello hello hellohello hello hello hellohello hello hello hello
+hello hello hello hellohello hello hello hellohello hello hello hellohello hello hello hellohello hello hello hello
+hello hello hello hellohello hello hello hellohello hello hello hellohello hello hello hellohello hello hello hello
+hello hello hello hellohello hello hello hellohello hello hello hellohello hello hello hellohello hello hello hello&lt;/p&gt;
+</summary><category term="bbb"></category><category term="aaa"></category></entry><entry><title>Architecture</title><link href="http://localhost:8000/en/architecture.html" rel="alternate"></link><updated>2010-10-03T10:20:00+11:00</updated><author><name>Ron</name></author><id>tag:localhost:8000,2010-10-03:en/architecture.html</id><summary type="html">
+&lt;div class="section" id="basic-architecture"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#id1"&gt;Basic Architecture&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This is the basic system architecture:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+ui exe &amp;lt;--------+
+  | ^           |
+  v |           |
+da proxy exe    |
+  | ^           |
+  v |           |
+bl dll &amp;lt;--------+
+  |
+  v
+da dll
+  |
+  v
+database
+&lt;/pre&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;"da proxy exe" is for broadcasting the database change to all connected client, otherwise
+ui exe accesses bl dll directly and can only get database change by manually refreshing the
+view.&lt;/li&gt;
+&lt;li&gt;"da proxy exe" is able to deliver web ui, so it is not only a web service, but also a web app&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="extended-architecture"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#id2"&gt;Extended Architecture&lt;/a&gt;&lt;/h2&gt;
+&lt;pre class="literal-block"&gt;
+view (both gui &amp;amp; console)
+view model
+
+App Proxy (a backend switcher, support both native and network backend)
+
+communication
+
+balancer
+cache
+app service
+DAL (with DB switcher)
+
+DB
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class="section" id="extensibility-scalability"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#id3"&gt;Extensibility &amp;amp; Scalability&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Multiple DbContext:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;One extension one DbContext&lt;/li&gt;
+&lt;li&gt;Have one "contain-everything" DbContext for database creation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Extending function layers:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;All components' API use the common business entities&lt;/li&gt;
+&lt;li&gt;If need an extra layer, e.g. validation, Performance measurement, caching, message queue,
+etc. , just add a new layer component in the middle with the same API interface (By this
+way, the prototype can just focus on the core functions)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="network"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#id4"&gt;Network&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;strong&gt;Avoid Callback, but use client side service&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If server use callback to contact client, one disadvantage is: once the callback interface changes,
+all the client must upgrade.&lt;/p&gt;
+&lt;p&gt;Therefore, it may be better to have client side services to work as callback event interface. So when
+the client side service is changed, only the necessary minimal sites need to upgrade, other sites
+can still work on the old client side versions.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;strong&gt;Use Queue&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Need to consider to use a message queues for critical communications.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;strong&gt;Peer-to-peer Design&lt;/strong&gt;&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Every client can work as a proxy&lt;/li&gt;
+&lt;li&gt;Every client can replicate their proxy list to other clients&lt;/li&gt;
+&lt;li&gt;Because notfication is not based on callback, every client just needs to wait for others to
+call them. So when a client update its own task, it will call all other clients one-by-one.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Registration&lt;/strong&gt;: the living client register itself in the central database, if it is down, other
+clients will update that client's status in the database if they cannot reach it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>Database</title><link href="http://localhost:8000/en/database.html" rel="alternate"></link><updated>2010-10-03T10:20:00+11:00</updated><author><name>Ron</name></author><id>tag:localhost:8000,2010-10-03:en/database.html</id><summary type="html">&lt;div class="section" id="overview"&gt;
+&lt;h2&gt;Overview&lt;/h2&gt;
+&lt;div class="section" id="more-considerations"&gt;
+&lt;h3&gt;More Considerations&lt;/h3&gt;
+&lt;p&gt;need to have some way to verify the database file is not corrupted&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="about-dtos"&gt;
+&lt;h3&gt;About DTOs&lt;/h3&gt;
+&lt;p&gt;Only the relation tables are automatically created by the EF ORM framework,
+other tables all have a relevant DTO object with the same name.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="database-merging"&gt;
+&lt;h3&gt;Database Merging&lt;/h3&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Need database merging interfaces&lt;/li&gt;
+&lt;li&gt;Need object transfering format definitions (probably using xml)&lt;/li&gt;
+&lt;li&gt;Merge by ReadActivities()/CreateActivities() - the ORM should be able to create all tables&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>Implementation Notes</title><link href="http://localhost:8000/en/implementation-notes.html" rel="alternate"></link><updated>2010-10-03T10:20:00+11:00</updated><author><name>Ron</name></author><id>tag:localhost:8000,2010-10-03:en/implementation-notes.html</id><summary type="html">
+&lt;div class="section" id="if-find-any-build-runtime-problem"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#id1"&gt;If find any build/runtime problem&lt;/a&gt;&lt;/h2&gt;
+&lt;pre class="code java literal-block"&gt;
+&lt;span class="kd"&gt;public&lt;/span&gt; &lt;span class="kt"&gt;void&lt;/span&gt; &lt;span class="nf"&gt;setReceivingSendSyncDResponse&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;boolean&lt;/span&gt; &lt;span class="n"&gt;isReceivingSendSyncDResponse&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
+&lt;span class="o"&gt;{&lt;/span&gt;
+    &lt;span class="k"&gt;this&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;isReceivingSendSyncDResponse&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;isReceivingSendSyncDResponse&lt;/span&gt;&lt;span class="o"&gt;;&lt;/span&gt;
+
+    &lt;span class="k"&gt;if&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;isReceivingSendSyncDResponse&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
+    &lt;span class="o"&gt;{&lt;/span&gt;
+        &lt;span class="n"&gt;msgSet&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="k"&gt;new&lt;/span&gt; &lt;span class="n"&gt;DynetReceivedMessageSet&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;network&lt;/span&gt;&lt;span class="o"&gt;);&lt;/span&gt;
+    &lt;span class="o"&gt;}&lt;/span&gt;
+    &lt;span class="k"&gt;else&lt;/span&gt;
+    &lt;span class="o"&gt;{&lt;/span&gt;
+            &lt;span class="n"&gt;sendSyndDReturn&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="k"&gt;new&lt;/span&gt; &lt;span class="n"&gt;DynetReadResponse&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;network&lt;/span&gt;&lt;span class="o"&gt;);&lt;/span&gt;
+            &lt;span class="n"&gt;sendSyndDReturn&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;readResponse&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;sendSyndDRsp&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;getMsgSet&lt;/span&gt;&lt;span class="o"&gt;());&lt;/span&gt;
+        &lt;span class="o"&gt;}&lt;/span&gt;
+    &lt;span class="o"&gt;}&lt;/span&gt;
+&lt;span class="o"&gt;}&lt;/span&gt;
+&lt;/pre&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Make sure the library references use the same .net platform as the relevant projects,
+especially the sqlite dll references, which were added manually in TiTest project&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="ticommon"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#id2"&gt;TiCommon&lt;/a&gt;&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Reason why remove List&amp;lt;Task&amp;gt; property in Job&lt;ul&gt;
+&lt;li&gt;to avoid maintain the in memory object state (to keep consistent with the DB data)&lt;/li&gt;
+&lt;li&gt;it's too trouble to query a task list when create a Job object&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="tidesk-the-ui-layer"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#id3"&gt;TiDesk (the UI layer)&lt;/a&gt;&lt;/h2&gt;
+&lt;div class="section" id="mix-using-wpf-and-winform"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#id4"&gt;Mix using WPF and WinForm&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;WPF does not have tray icon notification control, so WinForm is used for that function instead.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Affedtec file: TimeInsightvsTideskMainWindow.xaml.cs&lt;/li&gt;
+&lt;li&gt;Added reference: System.Windows.Forms&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="ticore-the-bl-layer"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#id5"&gt;TiCore (the BL layer)&lt;/a&gt;&lt;/h2&gt;
+&lt;div class="section" id="serialization"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#id6"&gt;Serialization&lt;/a&gt;&lt;/h3&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Although because of a hidden proxy object added by the entity framework, the serialization of DTOs can not be done
+in asp.net mvc, it can, however, be performed by a customized function using XmlSerializer and MemoryStream.&lt;/li&gt;
+&lt;li&gt;To prevent circular reference, some DTO propoerties a marked as "[XmlIgnoreAttribute]"&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>Product</title><link href="http://localhost:8000/en/product.html" rel="alternate"></link><updated>2010-10-03T10:20:00+11:00</updated><author><name>Ron</name></author><id>tag:localhost:8000,2010-10-03:en/product.html</id><summary type="html"></summary></entry><entry><title>Project</title><link href="http://localhost:8000/en/project.html" rel="alternate"></link><updated>2010-10-03T10:20:00+11:00</updated><author><name>Ron</name></author><id>tag:localhost:8000,2010-10-03:en/project.html</id><summary type="html">
+&lt;div class="section" id="console-commands"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#id2"&gt;Console Commands&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Use py33.bat or vedjango142_v-env.bat&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="versions"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#id3"&gt;Versions&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;It is decided to develop multiple prototype versions:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;(main) Python version (probably with some performance critical java components), and&lt;/li&gt;
+&lt;li&gt;C# version, and&lt;/li&gt;
+&lt;li&gt;(optional) Java version&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;to compare those technology and then make the final decision for the long term platform choice.&lt;/p&gt;
+&lt;p&gt;Currently, the Python version is temporarily considered as the main production codebase, other versions
+will only be developed for learning and technology comparison purpose. However, this may be changed if
+it is proven that using other technology, e.g. Java or C#, can deliver faster or better code.&lt;/p&gt;
+&lt;p&gt;When the final platform choice decision is made, all the other prototype codebases will released as open source projects.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="technology-stack"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#id4"&gt;Technology Stack&lt;/a&gt;&lt;/h2&gt;
+&lt;div class="section" id="misc"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#id5"&gt;Misc&lt;/a&gt;&lt;/h3&gt;
+&lt;pre class="literal-block"&gt;
+[=+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+@@
+@@ [#2012-10-10_23:00:08]
+
+初步决定使用以下工具栈：
+
+  commonJS  -- for 模块化，代码重用
++ dojo      -- for 界面组件
++ backbone  -- for MVC框架
++ 某一个python web server:
+       bottle
+    or cherry
+    or tornado
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+=]
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class="section" id="libs"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#id6"&gt;Libs&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;NDesk.Options 0.2.1&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;Description: A command line parser&lt;/p&gt;
+&lt;p&gt;Recommended by: &lt;a class="reference external" href="http://stackoverflow.com/questions/491595/best-way-to-parse-command-line-arguments-in-c"&gt;http://stackoverflow.com/questions/491595/best-way-to-parse-command-line-arguments-in-c&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Location: _labapp_TimeInsightvslibsndesk-optionsNDesk.Options.dll&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Download from: &lt;a class="reference external" href="http://www.ndesk.org/Options"&gt;http://www.ndesk.org/Options&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Version in use: 0.2.1&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="cloud-platform"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#id7"&gt;Cloud Platform&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Iaas candidates:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Amazon EC2: with HAProxy, Django, mod_wsgi, Apache, MySQL, memcached &lt;a class="footnote-reference" href="#f1" id="id1"&gt;[1]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Google Compute Engine &lt;a class="reference external" href="https://cloud.google.com/pricing/compute-engine"&gt;https://cloud.google.com/pricing/compute-engine&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="configurations"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#id8"&gt;Configurations&lt;/a&gt;&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;CI: Travis (recommended) or Jekins
+- Travis + selenium for web gui testing: &lt;a class="reference external" href="http://about.travis-ci.org/docs/user/gui-and-headless-browsers/"&gt;http://about.travis-ci.org/docs/user/gui-and-headless-browsers/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Others:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class="literal-block"&gt;
+[=+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+@@
+@@ [#2012-09-24_17:51:47]
+
+- four-digit version number: major.feature.bug.revision
+- all feature &amp;amp; bug fixing work are on branch, then merge to trunk (trunk
+  keeps stable for release)
+- create a script to read labels from hg to generate release notes and
+  update version numbers
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+=]
+&lt;/pre&gt;
+&lt;p class="rubric"&gt;Footnotes&lt;/p&gt;
+&lt;table class="docutils footnote" frame="void" id="f1" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label"&gt;&lt;/col&gt;&lt;col&gt;&lt;/col&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id1"&gt;[1]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;from: &lt;a class="reference external" href="http://attentionshard.wordpress.com/2011/04/26/scaling-django-to-30000-requests-per-second/"&gt;Scaling Django to 30,000 requests per second&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>Testing</title><link href="http://localhost:8000/en/testing.html" rel="alternate"></link><updated>2010-10-03T10:20:00+11:00</updated><author><name>Ron</name></author><id>tag:localhost:8000,2010-10-03:en/testing.html</id><summary type="html">&lt;div class="section" id="manual-testing"&gt;
+&lt;h2&gt;Manual Testing&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Notify icon&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="test-large-amount-of-tasks"&gt;
+&lt;h2&gt;Test Large Amount of Tasks&lt;/h2&gt;
+&lt;p&gt;Run TiDesk and execute the relevant commands in the &amp;quot;Test&amp;quot; menu.&lt;/p&gt;
+&lt;/div&gt;
+</summary></entry></feed>

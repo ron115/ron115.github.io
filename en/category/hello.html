@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <title>A Pelican Blog - hello</title>
+        <link rel="stylesheet" href="/theme/css/main.css" />
+        <link href="/feeds\all.atom.xml" type="application/atom+xml" rel="alternate" title="A Pelican Blog Atom Feed" />
+
+        <!--[if IE]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="/">A Pelican Blog </a></h1>
+                <nav><ul>
+                    <li><a href="/pages/forum.html">Forum</a></li>
+                    <li class="active"><a href="/category/hello.html">hello</a></li>
+                    <li><a href="/category/hey.html">hey</a></li>
+                    <li><a href="/category/welcome.html">welcome</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+
+            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href="/architecture.html">Architecture</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2010-10-03T10:20:00+00:00">
+                Published: Sun 03 October 2010
+        </abbr>
+
+<p>In <a href="/category/hello.html">hello</a>. </p>
+
+</footer><!-- /.post-info --><div class="contents topic" id="contents">
+<p class="topic-title first">Contents</p>
+<ul class="simple">
+<li><a class="reference internal" href="#basic-architecture" id="id1">Basic Architecture</a></li>
+<li><a class="reference internal" href="#extended-architecture" id="id2">Extended Architecture</a></li>
+<li><a class="reference internal" href="#extensibility-scalability" id="id3">Extensibility &amp; Scalability</a></li>
+<li><a class="reference internal" href="#network" id="id4">Network</a></li>
+</ul>
+</div>
+<div class="section" id="basic-architecture">
+<h2><a class="toc-backref" href="#id1">Basic Architecture</a></h2>
+<p>This is the basic system architecture:</p>
+<pre class="literal-block">
+ui exe &lt;--------+
+  | ^           |
+  v |           |
+da proxy exe    |
+  | ^           |
+  v |           |
+bl dll &lt;--------+
+  |
+  v
+da dll
+  |
+  v
+database
+</pre>
+<ul class="simple">
+<li>&quot;da proxy exe&quot; is for broadcasting the database change to all connected client, otherwise
+ui exe accesses bl dll directly and can only get database change by manually refreshing the
+view.</li>
+<li>&quot;da proxy exe&quot; is able to deliver web ui, so it is not only a web service, but also a web app</li>
+</ul>
+</div>
+<div class="section" id="extended-architecture">
+<h2><a class="toc-backref" href="#id2">Extended Architecture</a></h2>
+<pre class="literal-block">
+view (both gui &amp; console)
+view model
+
+App Proxy (a backend switcher, support both native and network backend)
+
+communication
+
+balancer
+cache
+app service
+DAL (with DB switcher)
+
+DB
+</pre>
+</div>
+<div class="section" id="extensibility-scalability">
+<h2><a class="toc-backref" href="#id3">Extensibility &amp; Scalability</a></h2>
+<p>Multiple DbContext:</p>
+<ul class="simple">
+<li>One extension one DbContext</li>
+<li>Have one &quot;contain-everything&quot; DbContext for database creation</li>
+</ul>
+<p>Extending function layers:</p>
+<ul class="simple">
+<li>All components' API use the common business entities</li>
+<li>If need an extra layer, e.g. validation, Performance measurement, caching, message queue,
+etc. , just add a new layer component in the middle with the same API interface (By this
+way, the prototype can just focus on the core functions)</li>
+</ul>
+</div>
+<div class="section" id="network">
+<h2><a class="toc-backref" href="#id4">Network</a></h2>
+<ul>
+<li><p class="first"><strong>Avoid Callback, but use client side service</strong></p>
+<p>If server use callback to contact client, one disadvantage is: once the callback interface changes,
+all the client must upgrade.</p>
+<p>Therefore, it may be better to have client side services to work as callback event interface. So when
+the client side service is changed, only the necessary minimal sites need to upgrade, other sites
+can still work on the old client side versions.</p>
+</li>
+<li><p class="first"><strong>Use Queue</strong></p>
+<p>Need to consider to use a message queues for critical communications.</p>
+</li>
+<li><p class="first"><strong>Peer-to-peer Design</strong></p>
+<ul class="simple">
+<li>Every client can work as a proxy</li>
+<li>Every client can replicate their proxy list to other clients</li>
+<li>Because notfication is not based on callback, every client just needs to wait for others to
+call them. So when a client update its own task, it will call all other clients one-by-one.</li>
+<li><strong>Registration</strong>: the living client register itself in the central database, if it is down, other
+clients will update that client's status in the database if they cannot reach it.</li>
+</ul>
+</li>
+</ul>
+</div>
+                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/database.html" rel="bookmark"
+                           title="Permalink to Database">Database</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2010-10-03T10:20:00+00:00">
+                Published: Sun 03 October 2010
+        </abbr>
+
+<p>In <a href="/category/hello.html">hello</a>. </p>
+
+</footer><!-- /.post-info -->                <div class="section" id="overview">
+<h2>Overview</h2>
+<div class="section" id="more-considerations">
+<h3>More Considerations</h3>
+<p>need to have some way to verify the database file is not corrupted</p>
+</div>
+<div class="section" id="about-dtos">
+<h3>About DTOs</h3>
+<p>Only the relation tables are automatically created by the EF ORM framework,
+other tables all have a relevant DTO object with the same name.</p>
+</div>
+<div class="section" id="database-merging">
+<h3>Database Merging</h3>
+<ul class="simple">
+<li>Need database merging interfaces</li>
+<li>Need object ...</li></ul></div></div>
+                <a class="readmore" href="/database.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/implementation-notes.html" rel="bookmark"
+                           title="Permalink to Implementation Notes">Implementation Notes</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2010-10-03T10:20:00+00:00">
+                Published: Sun 03 October 2010
+        </abbr>
+
+<p>In <a href="/category/hello.html">hello</a>. </p>
+
+</footer><!-- /.post-info -->                <div class="contents topic" id="contents">
+<p class="topic-title first">Contents</p>
+<ul class="simple">
+<li><a class="reference internal" href="#if-find-any-build-runtime-problem" id="id1">If find any build/runtime problem</a></li>
+<li><a class="reference internal" href="#ticommon" id="id2">TiCommon</a></li>
+<li><a class="reference internal" href="#tidesk-the-ui-layer" id="id3">TiDesk (the UI layer)</a><ul>
+<li><a class="reference internal" href="#mix-using-wpf-and-winform" id="id4">Mix using WPF and WinForm</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#ticore-the-bl-layer" id="id5">TiCore (the BL layer)</a><ul>
+<li><a class="reference internal" href="#serialization" id="id6">Serialization</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="if-find-any-build-runtime-problem">
+<h2><a class="toc-backref" href="#id1">If find any build/runtime problem</a></h2>
+<pre class="code java literal-block">
+<span class="kd">public</span> <span class="kt">void</span> <span class="nf">setReceivingSendSyncDResponse</span><span class="o">(</span><span class="kt">boolean</span> <span class="n">isReceivingSendSyncDResponse</span><span class="o">)</span>
+<span class="o">{</span>
+    <span class="k">this</span><span class="o">.</span><span class="na">isReceivingSendSyncDResponse</span> <span class="o">=</span> <span class="n">isReceivingSendSyncDResponse</span><span class="o">;</span>
+
+    <span class="k">if</span><span class="o">(</span><span class="n">isReceivingSendSyncDResponse</span><span class="o">)</span>
+    <span class="o">{</span>
+        <span class="n">msgSet</span> <span class="o">=</span> <span class="k">new</span> <span class="n">DynetReceivedMessageSet</span><span class="o">(</span><span class="n">network</span><span class="o">);</span>
+    <span class="o">}</span>
+    <span class="k">else</span>
+    <span class="o">{</span>
+            <span class="n">sendSyndDReturn</span> <span class="o">=</span> <span class="k">new</span> <span class="n">DynetReadResponse</span><span class="o">(</span><span class="n">network</span><span class="o">);</span>
+            <span class="n">sendSyndDReturn</span><span class="o">.</span><span class="na">readResponse</span><span class="o">(</span><span class="n">sendSyndDRsp ...</span></pre></div>
+                <a class="readmore" href="/implementation-notes.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/product.html" rel="bookmark"
+                           title="Permalink to Product">Product</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2010-10-03T10:20:00+00:00">
+                Published: Sun 03 October 2010
+        </abbr>
+
+<p>In <a href="/category/hello.html">hello</a>. </p>
+
+</footer><!-- /.post-info -->                
+                <a class="readmore" href="/product.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/project.html" rel="bookmark"
+                           title="Permalink to Project">Project</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2010-10-03T10:20:00+00:00">
+                Published: Sun 03 October 2010
+        </abbr>
+
+<p>In <a href="/category/hello.html">hello</a>. </p>
+
+</footer><!-- /.post-info -->                <div class="contents topic" id="contents">
+<p class="topic-title first">Contents</p>
+<ul class="simple">
+<li><a class="reference internal" href="#console-commands" id="id2">Console Commands</a></li>
+<li><a class="reference internal" href="#versions" id="id3">Versions</a></li>
+<li><a class="reference internal" href="#technology-stack" id="id4">Technology Stack</a><ul>
+<li><a class="reference internal" href="#misc" id="id5">Misc</a></li>
+<li><a class="reference internal" href="#libs" id="id6">Libs</a></li>
+<li><a class="reference internal" href="#cloud-platform" id="id7">Cloud Platform</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#configurations" id="id8">Configurations</a></li>
+</ul>
+</div>
+<div class="section" id="console-commands">
+<h2><a class="toc-backref" href="#id2">Console Commands</a></h2>
+<p>Use py33.bat or vedjango142_v-env.bat</p>
+</div>
+<div class="section" id="versions">
+<h2><a class="toc-backref" href="#id3">Versions</a></h2>
+<p>It is decided to develop multiple prototype versions:</p>
+<ul class="simple">
+<li>(main) Python version (probably with some performance critical java components), and</li>
+<li>C# version, and</li>
+<li>(optional) Java version</li>
+</ul>
+<p>to compare those technology and ...</p></div>
+                <a class="readmore" href="/project.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/testing.html" rel="bookmark"
+                           title="Permalink to Testing">Testing</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2010-10-03T10:20:00+00:00">
+                Published: Sun 03 October 2010
+        </abbr>
+
+<p>In <a href="/category/hello.html">hello</a>. </p>
+
+</footer><!-- /.post-info -->                <div class="section" id="manual-testing">
+<h2>Manual Testing</h2>
+<ul class="simple">
+<li>Notify icon</li>
+</ul>
+</div>
+<div class="section" id="test-large-amount-of-tasks">
+<h2>Test Large Amount of Tasks</h2>
+<p>Run TiDesk and execute the relevant commands in the &quot;Test&quot; menu.</p>
+</div>
+
+                <a class="readmore" href="/testing.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+                </ol><!-- /#posts-list -->
+                </section><!-- /#content -->
+        <section id="extras" class="body">
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="/feeds\all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

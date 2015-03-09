@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>My Site</title><link href="http://assert-false.com/en/" rel="alternate"></link><link href="http://assert-false.com/en/feeds%5Chello.atom.xml" rel="self"></link><id>http://assert-false.com/en/</id><updated>2010-10-03T10:20:00+11:00</updated><entry><title>Architecture</title><link href="http://assert-false.com/en/architecture.html" rel="alternate"></link><updated>2010-10-03T10:20:00+11:00</updated><author><name>Ron</name></author><id>tag:assert-false.com/en,2010-10-03:architecture.html</id><summary type="html">
+<feed xmlns="http://www.w3.org/2005/Atom"><title>My Site</title><link href="http://localhost:8000/en/" rel="alternate"></link><link href="http://localhost:8000/en/feeds%5Chello.atom.xml" rel="self"></link><id>http://localhost:8000/en/</id><updated>2010-10-03T10:20:00+11:00</updated><entry><title>Architecture</title><link href="http://localhost:8000/en/architecture.html" rel="alternate"></link><updated>2010-10-03T10:20:00+11:00</updated><author><name>Ron</name></author><id>tag:localhost:8000,2010-10-03:en/architecture.html</id><summary type="html">
 &lt;div class="section" id="basic-architecture"&gt;
 &lt;h2&gt;&lt;a class="toc-backref" href="#id1"&gt;Basic Architecture&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;This is the basic system architecture:&lt;/p&gt;
@@ -83,7 +83,7 @@ clients will update that client's status in the database if they cannot reach it
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-</summary></entry><entry><title>Database</title><link href="http://assert-false.com/en/database.html" rel="alternate"></link><updated>2010-10-03T10:20:00+11:00</updated><author><name>Ron</name></author><id>tag:assert-false.com/en,2010-10-03:database.html</id><summary type="html">&lt;div class="section" id="overview"&gt;
+</summary></entry><entry><title>Database</title><link href="http://localhost:8000/en/database.html" rel="alternate"></link><updated>2010-10-03T10:20:00+11:00</updated><author><name>Ron</name></author><id>tag:localhost:8000,2010-10-03:en/database.html</id><summary type="html">&lt;div class="section" id="overview"&gt;
 &lt;h2&gt;Overview&lt;/h2&gt;
 &lt;div class="section" id="more-considerations"&gt;
 &lt;h3&gt;More Considerations&lt;/h3&gt;
@@ -103,7 +103,7 @@ other tables all have a relevant DTO object with the same name.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</summary></entry><entry><title>Implementation Notes</title><link href="http://assert-false.com/en/implementation-notes.html" rel="alternate"></link><updated>2010-10-03T10:20:00+11:00</updated><author><name>Ron</name></author><id>tag:assert-false.com/en,2010-10-03:implementation-notes.html</id><summary type="html">
+</summary></entry><entry><title>Implementation Notes</title><link href="http://localhost:8000/en/implementation-notes.html" rel="alternate"></link><updated>2010-10-03T10:20:00+11:00</updated><author><name>Ron</name></author><id>tag:localhost:8000,2010-10-03:en/implementation-notes.html</id><summary type="html">
 &lt;div class="section" id="if-find-any-build-runtime-problem"&gt;
 &lt;h2&gt;&lt;a class="toc-backref" href="#id1"&gt;If find any build/runtime problem&lt;/a&gt;&lt;/h2&gt;
 &lt;pre class="code java literal-block"&gt;
@@ -160,7 +160,7 @@ in asp.net mvc, it can, however, be performed by a customized function using Xml
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</summary></entry><entry><title>Product</title><link href="http://assert-false.com/en/product.html" rel="alternate"></link><updated>2010-10-03T10:20:00+11:00</updated><author><name>Ron</name></author><id>tag:assert-false.com/en,2010-10-03:product.html</id><summary type="html"></summary></entry><entry><title>Project</title><link href="http://assert-false.com/en/project.html" rel="alternate"></link><updated>2010-10-03T10:20:00+11:00</updated><author><name>Ron</name></author><id>tag:assert-false.com/en,2010-10-03:project.html</id><summary type="html">
+</summary></entry><entry><title>Product</title><link href="http://localhost:8000/en/product.html" rel="alternate"></link><updated>2010-10-03T10:20:00+11:00</updated><author><name>Ron</name></author><id>tag:localhost:8000,2010-10-03:en/product.html</id><summary type="html"></summary></entry><entry><title>Project</title><link href="http://localhost:8000/en/project.html" rel="alternate"></link><updated>2010-10-03T10:20:00+11:00</updated><author><name>Ron</name></author><id>tag:localhost:8000,2010-10-03:en/project.html</id><summary type="html">
 &lt;div class="section" id="console-commands"&gt;
 &lt;h2&gt;&lt;a class="toc-backref" href="#id2"&gt;Console Commands&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Use py33.bat or vedjango142_v-env.bat&lt;/p&gt;
@@ -253,7 +253,7 @@ it is proven that using other technology, e.g. Java or C#, can deliver faster or
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;/div&gt;
-</summary></entry><entry><title>Testing</title><link href="http://assert-false.com/en/testing.html" rel="alternate"></link><updated>2010-10-03T10:20:00+11:00</updated><author><name>Ron</name></author><id>tag:assert-false.com/en,2010-10-03:testing.html</id><summary type="html">&lt;div class="section" id="manual-testing"&gt;
+</summary></entry><entry><title>Testing</title><link href="http://localhost:8000/en/testing.html" rel="alternate"></link><updated>2010-10-03T10:20:00+11:00</updated><author><name>Ron</name></author><id>tag:localhost:8000,2010-10-03:en/testing.html</id><summary type="html">&lt;div class="section" id="manual-testing"&gt;
 &lt;h2&gt;Manual Testing&lt;/h2&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;Notify icon&lt;/li&gt;

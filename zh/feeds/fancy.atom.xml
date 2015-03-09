@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Pelican Test</title><link href="http://assert-false.com/zh/" rel="alternate"></link><link href="http://assert-false.com/zh/feeds%5Cfancy.atom.xml" rel="self"></link><id>http://assert-false.com/zh/</id><updated>2013-12-23T10:20:00+11:00</updated><entry><title>User Interface</title><link href="http://assert-false.com/zh/user-interface.html" rel="alternate"></link><updated>2013-12-23T10:20:00+11:00</updated><author><name>李某</name></author><id>tag:assert-false.com/zh,2013-12-23:user-interface.html</id><summary type="html">
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Pelican Test</title><link href="http://localhost:8000/zh/" rel="alternate"></link><link href="http://localhost:8000/zh/feeds%5Cfancy.atom.xml" rel="self"></link><id>http://localhost:8000/zh/</id><updated>2013-12-23T10:20:00+11:00</updated><entry><title>User Interface</title><link href="http://localhost:8000/zh/user-interface.html" rel="alternate"></link><updated>2013-12-23T10:20:00+11:00</updated><author><name>李某</name></author><id>tag:localhost:8000,2013-12-23:zh/user-interface.html</id><summary type="html">
 &lt;div class="section" id="misc"&gt;
 &lt;h2&gt;&lt;a class="toc-backref" href="#id1"&gt;Misc&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
@@ -282,7 +282,7 @@ search
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+=]
 &lt;/pre&gt;
 &lt;/div&gt;
-</summary></entry><entry><title>Architecture</title><link href="http://assert-false.com/zh/architecture.html" rel="alternate"></link><updated>2010-10-03T10:20:00+11:00</updated><author><name>李某</name></author><id>tag:assert-false.com/zh,2010-10-03:architecture.html</id><summary type="html">
+</summary></entry><entry><title>Architecture</title><link href="http://localhost:8000/zh/architecture.html" rel="alternate"></link><updated>2010-10-03T10:20:00+11:00</updated><author><name>李某</name></author><id>tag:localhost:8000,2010-10-03:zh/architecture.html</id><summary type="html">
 &lt;div class="section" id="basic-architecture"&gt;
 &lt;h2&gt;&lt;a class="toc-backref" href="#id2"&gt;Basic Architecture&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;This is the basic system architecture:&lt;/p&gt;
@@ -398,7 +398,7 @@ clients will update that client's status in the database if they cannot reach it
 &lt;p&gt;14、选择基金将要到期的投资人&lt;/p&gt;
 &lt;p&gt;最后，这指的是中后期融资所发生的情况。基金通常有7-10 年的寿命，因此到了后期，负责管理基金的投资人(所谓 GP)会受到他们的股东(所谓 LP)越来越大的压力，要赶快出脱持股、获利了结。所以假设他投资你时基金还有4、5 年寿命，那你可以想像2、3 年后，他会开始感受到压力，因此推动你往退出方向走的力度会不断的增加，这时可能会让公司陷入困难的抉择。&lt;/p&gt;
 &lt;/div&gt;
-</summary></entry><entry><title>Database</title><link href="http://assert-false.com/zh/database.html" rel="alternate"></link><updated>2010-10-03T10:20:00+11:00</updated><author><name>李某</name></author><id>tag:assert-false.com/zh,2010-10-03:database.html</id><summary type="html">&lt;div class="section" id="overview"&gt;
+</summary></entry><entry><title>Database</title><link href="http://localhost:8000/zh/database.html" rel="alternate"></link><updated>2010-10-03T10:20:00+11:00</updated><author><name>李某</name></author><id>tag:localhost:8000,2010-10-03:zh/database.html</id><summary type="html">&lt;div class="section" id="overview"&gt;
 &lt;h2&gt;Overview&lt;/h2&gt;
 &lt;div class="section" id="more-considerations"&gt;
 &lt;h3&gt;More Considerations&lt;/h3&gt;
@@ -418,7 +418,7 @@ other tables all have a relevant DTO object with the same name.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</summary></entry><entry><title>Implementation Notes</title><link href="http://assert-false.com/zh/implementation-notes.html" rel="alternate"></link><updated>2010-10-03T10:20:00+11:00</updated><author><name>李某</name></author><id>tag:assert-false.com/zh,2010-10-03:implementation-notes.html</id><summary type="html">
+</summary></entry><entry><title>Implementation Notes</title><link href="http://localhost:8000/zh/implementation-notes.html" rel="alternate"></link><updated>2010-10-03T10:20:00+11:00</updated><author><name>李某</name></author><id>tag:localhost:8000,2010-10-03:zh/implementation-notes.html</id><summary type="html">
 &lt;div class="section" id="if-find-any-build-runtime-problem"&gt;
 &lt;h2&gt;&lt;a class="toc-backref" href="#id1"&gt;If find any build/runtime problem&lt;/a&gt;&lt;/h2&gt;
 &lt;pre class="code java literal-block"&gt;
@@ -475,7 +475,7 @@ in asp.net mvc, it can, however, be performed by a customized function using Xml
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</summary></entry><entry><title>Product</title><link href="http://assert-false.com/zh/product.html" rel="alternate"></link><updated>2010-10-03T10:20:00+11:00</updated><author><name>李某</name></author><id>tag:assert-false.com/zh,2010-10-03:product.html</id><summary type="html"></summary></entry><entry><title>Project</title><link href="http://assert-false.com/zh/project.html" rel="alternate"></link><updated>2010-10-03T10:20:00+11:00</updated><author><name>李某</name></author><id>tag:assert-false.com/zh,2010-10-03:project.html</id><summary type="html">
+</summary></entry><entry><title>Product</title><link href="http://localhost:8000/zh/product.html" rel="alternate"></link><updated>2010-10-03T10:20:00+11:00</updated><author><name>李某</name></author><id>tag:localhost:8000,2010-10-03:zh/product.html</id><summary type="html"></summary></entry><entry><title>Project</title><link href="http://localhost:8000/zh/project.html" rel="alternate"></link><updated>2010-10-03T10:20:00+11:00</updated><author><name>李某</name></author><id>tag:localhost:8000,2010-10-03:zh/project.html</id><summary type="html">
 &lt;div class="section" id="console-commands"&gt;
 &lt;h2&gt;&lt;a class="toc-backref" href="#id2"&gt;Console Commands&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Use py33.bat or vedjango142_v-env.bat&lt;/p&gt;
@@ -568,7 +568,7 @@ it is proven that using other technology, e.g. Java or C#, can deliver faster or
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;/div&gt;
-</summary></entry><entry><title>Testing</title><link href="http://assert-false.com/zh/testing.html" rel="alternate"></link><updated>2010-10-03T10:20:00+11:00</updated><author><name>李某</name></author><id>tag:assert-false.com/zh,2010-10-03:testing.html</id><summary type="html">&lt;div class="section" id="manual-testing"&gt;
+</summary></entry><entry><title>Testing</title><link href="http://localhost:8000/zh/testing.html" rel="alternate"></link><updated>2010-10-03T10:20:00+11:00</updated><author><name>李某</name></author><id>tag:localhost:8000,2010-10-03:zh/testing.html</id><summary type="html">&lt;div class="section" id="manual-testing"&gt;
 &lt;h2&gt;Manual Testing&lt;/h2&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;Notify icon&lt;/li&gt;
