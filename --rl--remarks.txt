@@ -1,5 +1,27 @@
 # vim: set filetype=mcn :
 
+================
+.| pelican setup
+================
+
+[=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+@@ 
+@@ [#2015-03-09_19:38:57]
+
+first, install python2
+
+global:
+    pip install virtualenv
+
+in virtualenv: 
+    pip install pelican beautifulsoup4
+
+--- remarks:
+
+beautifulsoup4 is for plugin: extract_toc and tipue_search
+
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.=]
+
 ==========
 .| Release
 ==========
@@ -8,22 +30,10 @@
 @@ 
 @@ [#2014-07-18_10:38:09]
 
-Make sure in the file: /pelican/scripts/pelicanconf_common.py, the varialbe
-SITEURL_ROOT is set to the real domain.
-
--.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.=]
-
-=====================
-.| package dependency
-=====================
-
-[=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
-@@ 
-@@ [#2015-03-09_14:11:54]
-
-for plugin: extract_toc and tipue_search
-
-pip install beautifulsoup4
+x:\> cd pelican
+x:\> update_local
+or
+x:\> update_public
 
 -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.=]
 
