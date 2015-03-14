@@ -11,7 +11,7 @@ For user2:
   test test test test test test test test test 
 
 For user1 & user2:
-- [] Integrate app client with server
+- [ ] Integrate app client with server
 
 For user3:
 - [ ] Setup an azure account
