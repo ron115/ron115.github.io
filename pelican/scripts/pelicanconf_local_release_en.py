@@ -9,6 +9,6 @@ sys.path.append(os.getcwd()+'/scripts')
 #===========================================================================
 
 from pelicanconf_common_en import *
-from pelicanconf_common_local_url_root import *
+from pelicanconf_common_url_root_local import *
 
 SITEURL = SITEURL_ROOT + OUTPUT_DIR_NAME
